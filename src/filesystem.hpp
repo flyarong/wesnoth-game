@@ -1,5 +1,5 @@
 /*
-	Copyright (C) 2003 - 2022
+	Copyright (C) 2003 - 2023
 	by David White <dave@whitevine.net>
 	Part of the Battle for Wesnoth Project https://www.wesnoth.org/
 
@@ -29,6 +29,17 @@
 
 #include "exceptions.hpp"
 #include "game_version.hpp"
+
+namespace game_config {
+extern std::string path;
+extern std::string default_preferences_path;
+extern bool check_migration;
+
+/** observer team name used for observer team chat */
+extern const std::string observer_team_name;
+
+extern int cache_compression_level;
+}
 
 class config;
 class game_config_view;
@@ -122,9 +133,12 @@ std::string get_credentials_file();
 std::string get_default_prefs_file();
 std::string get_save_index_file();
 std::string get_saves_dir();
+std::string get_wml_persist_dir();
 std::string get_intl_dir();
 std::string get_screenshot_dir();
+std::string get_addons_data_dir();
 std::string get_addons_dir();
+std::string get_current_editor_dir(const std::string& addon_id);
 const std::string get_version_path_suffix(const version_info& version);
 const std::string& get_version_path_suffix();
 
@@ -141,6 +155,10 @@ std::string get_user_config_dir();
 std::string get_user_data_dir();
 std::string get_logs_dir();
 std::string get_cache_dir();
+std::string get_legacy_editor_dir();
+std::string get_core_images_dir();
+
+bool rename_dir(const std::string& old_dir, const std::string& new_dir);
 
 struct other_version_dir
 {
@@ -184,6 +202,9 @@ bool looks_like_pbl(const std::string& file);
 
 /** Basic disk I/O - read file. */
 std::string read_file(const std::string& fname);
+std::vector<uint8_t> read_file_binary(const std::string& fname);
+std::string read_file_as_data_uri(const std::string& fname);
+
 filesystem::scoped_istream istream_file(const std::string& fname, bool treat_failure_as_error = true);
 filesystem::scoped_ostream ostream_file(const std::string& fname, std::ios_base::openmode mode = std::ios_base::binary, bool create_directory = true);
 /** Throws io_exception if an error occurs. */
@@ -197,6 +218,7 @@ void write_file(const std::string& fname, const std::string& data, std::ios_base
 void copy_file(const std::string& src, const std::string& dest);
 
 std::string read_map(const std::string& name);
+std::string read_scenario(const std::string& name);
 
 /**
  * Creates a directory if it does not exist already.

@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-04-23 03:24 UTC\n"
-"PO-Revision-Date: 2023-01-19 10:00+0100\n"
+"POT-Creation-Date: 2023-07-16 03:12 UTC\n"
+"PO-Revision-Date: 2023-05-12 06:18+0200\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: Wesnoth\n"
 "Language: es\n"
@@ -108,55 +108,53 @@ msgstr "Arte y diseño gráfico"
 #. [achievement]: id=liberty_or_death
 #: data/campaigns/Liberty/achievements.cfg:7
 msgid "Give Me Liberty or Give Me Death!"
-msgstr ""
+msgstr "¡Dame libertad o dame muerte!"
 
 #. [achievement]: id=liberty_or_death
 #: data/campaigns/Liberty/achievements.cfg:8
 msgid "Complete Civil Disobedience with at least 3 peasants remaining."
-msgstr ""
+msgstr "Completa desobediencia civil con al menos 3 campesinos restantes."
 
 #. [achievement]: id=liberty_nameless
 #: data/campaigns/Liberty/achievements.cfg:14
 msgid "The Nameless General"
-msgstr ""
+msgstr "El general sin nombre"
 
 #. [achievement]: id=liberty_nameless
 #: data/campaigns/Liberty/achievements.cfg:15
 msgid "Find out the name of the general in Unlawful Orders."
-msgstr ""
+msgstr "Averigua el nombre del general en órdenes ilegales."
 
 #. [achievement]: id=liberty_iron
 #: data/campaigns/Liberty/achievements.cfg:21
 msgid "Harper vs. Goliath"
-msgstr ""
+msgstr "Harper contra Goliath"
 
 #. [achievement]: id=liberty_iron
 #: data/campaigns/Liberty/achievements.cfg:22
 msgid "Defeat an Iron Mauler with Harper in Hide and Seek."
-msgstr ""
+msgstr "Derrota a un coloso con Harper en juego del escondite"
 
 #. [achievement]: id=liberty_hunter
 #. this is the achievement for the scenario The Hunters
 #: data/campaigns/Liberty/achievements.cfg:29
-#, fuzzy
-#| msgid "Peasant Hunter"
 msgid "Perfect Hunter"
-msgstr "Cazador campesino"
+msgstr "Cazador perfecto"
 
 #. [achievement]: id=liberty_hunter
 #: data/campaigns/Liberty/achievements.cfg:30
 msgid "Complete The Hunters with no losses"
-msgstr ""
+msgstr "Completa los cazadores sin pérdidas"
 
 #. [achievement]: id=liberty_army
 #: data/campaigns/Liberty/achievements.cfg:36
 msgid "Force of Arms is Pointless Without Strategy"
-msgstr ""
+msgstr "La fuerza de las armas no tiene sentido sin estrategia"
 
 #. [achievement]: id=liberty_army
 #: data/campaigns/Liberty/achievements.cfg:37
 msgid "On Challenging difficulty, defeat Dommel in Glory."
-msgstr ""
+msgstr "En dificultad desafiante, derrota a Dommel en Glory."
 
 #. [scenario]: id=01_The_Raid
 #: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:4
@@ -1589,10 +1587,8 @@ msgstr ""
 
 #. [modify_unit]
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:828
-#, fuzzy
-#| msgid "Kestrel"
 msgid "General Kestrel"
-msgstr "Kestrel"
+msgstr "General Kestrel"
 
 #. [message]: speaker=second_unit
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:835
@@ -1747,18 +1743,27 @@ msgstr "Hans"
 
 #. [objective]: condition=win
 #: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:151
-msgid "Enter the Grey Woods"
+#, fuzzy
+#| msgid "Enter the Grey Woods"
+msgid "Enter the Grey Woods with Hans"
 msgstr "Entre al bosque Gris"
 
+#. [objective]: condition=lose
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:163
+#, fuzzy
+#| msgid "Death of Harper"
+msgid "Death of Hans"
+msgstr "Muerte de Harper"
+
 #. [note]
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:164
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:168
 msgid "In fog, units always see one hex further than they can move."
 msgstr ""
 "En la niebla, las unidades siempre ven una casilla más allá de donde pueden "
 "mover."
 
 #. [message]: speaker=narrator
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:345
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:349
 msgid ""
 "Relentlessly pursued by riders patrolling the road to Elensefar, Baldras and "
 "his men traveled unseen along the swampy banks of the Great River to the "
@@ -1770,7 +1775,7 @@ msgstr ""
 "pantanosas orillas del río Grande hasta la ciudad de Carcín."
 
 #. [message]: speaker=Harper
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:393
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:397
 msgid ""
 "Wow, is that Carcyn in the distance? Look at how grand some of them spires "
 "be!"
@@ -1779,7 +1784,7 @@ msgstr ""
 "algunas de esas agujas!"
 
 #. [message]: speaker=Baldras
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:398
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:402
 msgid ""
 "Not since I were a young lad did I come this far south. Maybe it looks "
 "impressive now, but city life weren’t never something real nice. Them city "
@@ -1792,7 +1797,7 @@ msgstr ""
 "de que siempre te quieren cobrar un precio por su ayuda."
 
 #. [message]: speaker=Harper
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:403
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:407
 msgid ""
 "Well, we need their help now, don’t we? So we got to figure out a way to get "
 "to Lord Maddock’s friend. But he didn’t say anything about who that was."
@@ -1802,7 +1807,7 @@ msgstr ""
 "de quién era."
 
 #. [message]: speaker=Baldras
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:408
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:412
 msgid ""
 "Harper, when a noble lord says he don’t want some kind of relationship "
 "known, it means some kind o’ connection with the black market. We be looking "
@@ -1814,22 +1819,22 @@ msgstr ""
 "los que nos están buscando."
 
 #. [unit]: type=Thief, id=Link
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:424
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:428
 msgid "Link"
 msgstr "Contacto"
 
 #. [message]: speaker=Baldras
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:429
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:433
 msgid "Right on time."
 msgstr "Justo a tiempo."
 
 #. [message]: speaker=Harper
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:434
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:438
 msgid "How do we know we can trust him?"
 msgstr "¿Cómo sabemos que podemos confiar en él?"
 
 #. [message]: speaker=Link
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:439
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:443
 msgid ""
 "If you were one of my quarries, your throat would be slit by now, boy. As it "
 "is, you two are still in imminent danger. Just a week ago, the Crown sent a "
@@ -1843,12 +1848,12 @@ msgstr ""
 "calles y los bosques en vuestra busca."
 
 #. [message]: speaker=Baldras
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:444
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:448
 msgid "I be assuming they’ll also try to stop us if they see us."
 msgstr "Supongo su intención será detenernos en cuanto nos vean."
 
 #. [message]: speaker=Link
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:449
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:453
 msgid ""
 "Very likely. Now hurry, you must make it past the city into the Grey Woods. "
 "There is a small path in the southeast that leads into the forest. Look for "
@@ -1861,7 +1866,7 @@ msgstr ""
 "evitar a los soldados siempre que sea posible."
 
 #. [message]: speaker=second_unit
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:487
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:491
 msgid ""
 "Looks like these guards be holding stationary posts. If we’re careful, we "
 "can get ourselves around them unnoticed."
@@ -1870,7 +1875,7 @@ msgstr ""
 "cautelosos, podríamos deslizarnos entre ellos sin que se den cuenta."
 
 #. [message]: speaker=Baldras
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:491
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:495
 msgid ""
 "Harper, you younger and faster folks needs to be our eyes. Scout ahead and "
 "find a way past them guards, but make sure ya don’t get yourselves spotted..."
@@ -1880,46 +1885,47 @@ msgstr ""
 "de que no os descubran..."
 
 #. [message]: speaker=unit
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:562
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:566
 msgid "Who goes there? Halt!"
 msgstr "¿Quién va? ¡Alto!"
 
 #. [message]: speaker=Harper
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:566
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:570
 msgid "They’ve seen us! <i>Run</i>!"
 msgstr "¡Nos han visto! ¡<i>Corred</i>!"
 
 #. [message]: speaker=Baldras
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:583
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:587
 msgid "Quick, back into the shadows! Maybe we can still lose them!"
 msgstr "¡Volved a las sombras, rápido! ¡Tal vez aún podamos despistarles!"
 
 #. [message]: speaker=Harper
 #. Harper defeats an Iron Mauler
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:601
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:605
 msgid "Uncle, we did it! We beat one of them iron monsters!"
-msgstr ""
+msgstr "¡Tío, lo logramos! ¡Le ganamos a uno de esos monstruos de hierro!"
 
 #. [message]: speaker=Baldras
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:605
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:609
 msgid "A fine job lad, but more sure gots to be coming. Let’s keep movin’."
 msgstr ""
+"Un buen trabajo, muchacho, pero seguro que vendrán más. Sigamos moviéndonos."
 
 #. [message]: speaker=unit
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:624
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:628
 msgid ""
 "This way, into the forest! We’ll be able to lose them in the Grey Woods."
 msgstr "¡Por aquí, hacia el bosque! Los dejaremos atrás en el bosque Gris."
 
 #. [message]: speaker=Hans
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:649
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:653
 msgid ""
 "You can come if you wish, but we are mostly interested in speaking to "
 "Baldras."
 msgstr "Puedes venir si lo deseas, pero nos interesa más hablar con Baldras."
 
 #. [message]: speaker=Baldras
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:669
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:673
 msgid ""
 "I haven’t run so much in years. Feels like I be a real outlaw now, "
 "infiltrating a heavily guarded city relyin’ on nothing but the cover of "
@@ -1930,17 +1936,17 @@ msgstr ""
 "más que el ocultamiento de la oscuridad y mi ingenio."
 
 #. [message]: speaker=Harper
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:674
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:678
 msgid "It was fun, wasn’t it?"
 msgstr "Ha sido divertido, ¿verdad?"
 
 #. [message]: speaker=Baldras
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:679
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:683
 msgid "Perhaps a little."
 msgstr "Puede que un poco."
 
 #. [message]: speaker=Hans
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:684
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:688
 msgid ""
 "Enough chatter, you still have some guards on your tail. We need to head "
 "deeper into the Grey Woods to lose them."
@@ -1949,18 +1955,23 @@ msgstr ""
 "adentrarnos más en el bosque Gris para perderlos."
 
 #. [message]: speaker=Baldras
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:689
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:693
 msgid "Lead the way."
 msgstr "Guiadnos."
 
 #. [message]: speaker=Baldras
-#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:713
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:717
 msgid ""
 "Blast it, we was too slow! With the sun rising already, them guards will "
 "have no trouble spotting us now..."
 msgstr ""
 "¡Maldición, hemos sido demasiado lentos! Ahora que sale el sol, los guardias "
 "no tendrán problemas para vernos..."
+
+#. [message]: speaker=Hans
+#: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:734
+msgid "You fools! You weren’t supposed to lead them to me..."
+msgstr ""
 
 #. [scenario]: id=06_The_Hunters
 #: data/campaigns/Liberty/scenarios/06_The_Hunters.cfg:4
@@ -2859,15 +2870,11 @@ msgstr ""
 
 #. [message]: speaker=Sir Gwydion
 #: data/campaigns/Liberty/scenarios/07_Glory.cfg:392
-#, fuzzy
-#| msgid ""
-#| "Ready thine lances, mine brethren. Let us charge down the armies of "
-#| "Weldyn!"
 msgid ""
 "Ready thy lances! Let us trample the armies of Weldyn beneath our steeds!"
 msgstr ""
-"Preparad vuestras lanzas, compañeros. ¡Carguemos contra los ejércitos de "
-"Weldyn!"
+"¡Preparad vuestras lanzas! ¡Aplastemos los ejércitos de Weldyn bajo nuestros "
+"corceles!"
 
 #. [message]: role=farseer
 #: data/campaigns/Liberty/scenarios/07_Glory.cfg:405

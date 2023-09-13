@@ -1,5 +1,5 @@
 /*
-	Copyright (C) 2003 - 2022
+	Copyright (C) 2003 - 2023
 	by David White <dave@whitevine.net>
 	Part of the Battle for Wesnoth Project https://www.wesnoth.org/
 
@@ -1694,28 +1694,6 @@ REPORT_GENERATOR(observers, rc)
 	}
 	return image_report(game_config::images::observer, str.str());
 }
-
-/* TODO unused
-REPORT_GENERATOR(selected_terrain)
-{
-	const std::string selected_terrain = editor::get_selected_terrain();
-	if (selected_terrain.empty())
-		return config();
-	else
-		return text_report(selected_terrain);
-}
-*/
-
-/* TODO this is unused
-REPORT_GENERATOR(edit_left_button_function)
-{
-	const std::string left_button_function = editor::get_left_button_function();
-	if (left_button_function.empty())
-		return config();
-	else
-		return text_report(left_button_function);
-}
-*/
 
 REPORT_GENERATOR(report_clock, /*rc*/)
 {

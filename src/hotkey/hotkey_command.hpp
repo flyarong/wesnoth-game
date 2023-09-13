@@ -1,5 +1,5 @@
 /*
-	Copyright (C) 2003 - 2022
+	Copyright (C) 2003 - 2023
 	by David White <dave@whitevine.net>
 	Part of the Battle for Wesnoth Project https://www.wesnoth.org/
 
@@ -190,6 +190,10 @@ enum HOTKEY_COMMAND {
 	HOTKEY_EDITOR_AREA_ADD,
 	HOTKEY_EDITOR_AREA_SAVE,
 	HOTKEY_EDITOR_AREA_RENAME,
+
+	// Addons
+	HOTKEY_EDITOR_PBL,
+	HOTKEY_EDITOR_CHANGE_ADDON_ID,
 
 	// Scenario
 	HOTKEY_EDITOR_SCENARIO_EDIT,

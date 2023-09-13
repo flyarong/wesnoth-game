@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Winds_of_Fate-1.18\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-04-16 00:58 UTC\n"
-"PO-Revision-Date: 2023-02-18 14:15+0800\n"
+"PO-Revision-Date: 2023-06-19 11:44+0800\n"
 "Last-Translator: demario\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
@@ -13,17 +13,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 1.6.10\n"
 
+# Mise en fuzzy pour informer l'utilisateur de la traduction partielle.
+# Supprimer le fuzzy (sans changement) quand la traduction est complète.
 #. [campaign]: id=Winds_of_Fate
 #. [scenario]: id=06x_Winds_of_Fate
 #: data/campaigns/Winds_of_Fate/_main.cfg:10
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:5
+#, fuzzy
 msgid "Winds of Fate"
-msgstr ""
+msgstr "Les Vents du Destin"
 
 #. [campaign]: id=Winds_of_Fate
 #: data/campaigns/Winds_of_Fate/_main.cfg:11
 msgid "WoF"
-msgstr ""
+msgstr "VdD"
 
 #. [campaign]: id=Winds_of_Fate
 #: data/campaigns/Winds_of_Fate/_main.cfg:20
@@ -74,7 +77,7 @@ msgstr "Dominant"
 #: data/campaigns/Winds_of_Fate/_main.cfg:27
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:11
 msgid "Ancestor"
-msgstr ""
+msgstr "Ancêtre"
 
 #. [campaign]: id=Winds_of_Fate
 #: data/campaigns/Winds_of_Fate/_main.cfg:27
@@ -1365,7 +1368,7 @@ msgstr ""
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/02x_Victory_Feast.cfg:46
 msgid "‘Orc’ the creatures call themselves."
-msgstr "« Orc » est le nom que ces créatures se donnent entre elles."
+msgstr "\"Orc\" est le nom que ces créatures se donnent entre elles."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/02x_Victory_Feast.cfg:52
@@ -1506,10 +1509,8 @@ msgstr "Spectateurs"
 
 #. [objective]: condition=win
 #: data/campaigns/Winds_of_Fate/scenarios/03_The_Contention.cfg:210
-#, fuzzy
-#| msgid "Hold the advantage by turn 24"
 msgid "Hold the advantage at the end of turn 24"
-msgstr "Prendre l'avantage au tour 24"
+msgstr "Prendre l'avantage au terme du tour 24"
 
 #. [objective]: condition=win
 #: data/campaigns/Winds_of_Fate/scenarios/03_The_Contention.cfg:215
@@ -1518,10 +1519,8 @@ msgstr "Battre Karron"
 
 #. [objective]: condition=lose
 #: data/campaigns/Winds_of_Fate/scenarios/03_The_Contention.cfg:219
-#, fuzzy
-#| msgid "Not hold the advantage by turn 24"
 msgid "Not hold the advantage at the end of turn 24"
-msgstr "Concéder l'avantage au tour 24"
+msgstr "Concéder l'avantage au terme du tour 24"
 
 #. [objective]: condition=lose
 #: data/campaigns/Winds_of_Fate/scenarios/03_The_Contention.cfg:223
@@ -1562,11 +1561,6 @@ msgstr ""
 
 #. [note]
 #: data/campaigns/Winds_of_Fate/scenarios/03_The_Contention.cfg:247
-#, fuzzy
-#| msgid ""
-#| "From now on, Gorlack will have loyal intendants from the fighter and "
-#| "clasher castes; if one dies, the next recalled drake of the same caste "
-#| "will replace it, if that drake is level 2 or higher"
 msgid ""
 "From now on, Gorlack will have loyal intendants from the fighter and clasher "
 "castes; if one dies, the next recalled drake of the same caste will replace "
@@ -1574,7 +1568,7 @@ msgid ""
 msgstr ""
 "Dorénavant Gorlack aura deux intendants loyaux tirés des castes de "
 "combattants et de cogneurs. Si ils meurent, le prochain dracan rappelé de la "
-"même caste prendra sa place si il est de niveau 2 ou plus"
+"même caste prendra sa place tant qu'il est de niveau 2 ou plus"
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/03_The_Contention.cfg:259
@@ -1718,6 +1712,10 @@ msgid ""
 "\n"
 "I seek your forgiveness."
 msgstr ""
+"Dominant Vladnir, je ne peux rester plus longtemps sur ces terres comme "
+"votre allié.\n"
+"\n"
+"Je vous en demande pardon."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/03x_Final_Departure.cfg:23
@@ -1727,6 +1725,10 @@ msgid ""
 "The Spoken Memories of the glider caste have pointed your course.\n"
 "There is no better heading I may counsel."
 msgstr ""
+"Je n'ai rien à pardonner.\n"
+"\n"
+"Ce sont les mémoires révélées de la caste des tempêtes qui te mènent.\n"
+"Je n'ai pas de meilleur guide à te conseiller."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/03x_Final_Departure.cfg:31
@@ -1736,6 +1738,11 @@ msgid ""
 "\n"
 "Perhaps glider wisdom overlaps the many written Secrets your own caste wards."
 msgstr ""
+"... J'ignorais que vous teniez les tempêtes en si haute estime.\n"
+"Et que vous ayez entendu parler des mémoires révélées.\n"
+"\n"
+"Se peut-il que la sagesse des tempêtes couvre les mêmes secrets que les "
+"écrits de votre caste ?"
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/03x_Final_Departure.cfg:39
@@ -1757,17 +1764,21 @@ msgid ""
 "\n"
 "<i>May your fire light the way in darkness.</i>"
 msgstr ""
+"Beaucoup d'évènements se mettent en mouvement.\n"
+"Je dois partir car les préparatifs m'attendent... \n"
+"\n"
+"<i>Que ton feu éclaire la voie dans les ténèbres.</i>"
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/03x_Final_Departure.cfg:58
 msgid "<i>May your ancestors tread beside you.</i>"
-msgstr ""
+msgstr "<i>Que vos ancêtres vous accompagnent.</i>"
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/03x_Final_Departure.cfg:63
 msgid ""
 "My Dominant Gorlack, your flight has assembled upon the eastern landing."
-msgstr ""
+msgstr "Dominant Gorlack, votre vol s'est rassemblé sur les rives de l'Est."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/03x_Final_Departure.cfg:68
@@ -1775,6 +1786,8 @@ msgid ""
 "There is no need for you to address me by status, Reshan.\n"
 "We are still equals regardless of rank."
 msgstr ""
+"Reshan, ne t'adresse pas à moi comme un subalterne.\n"
+"Nous sommes des égaux quel que soit le grade."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/03x_Final_Departure.cfg:74
@@ -1783,6 +1796,9 @@ msgid ""
 "\n"
 "I would have perished in that cave if not for your intervention."
 msgstr ""
+"Cher ami, nous ne sommes pas égaux car je te dois ma vie.\n"
+"\n"
+"J'aurais péri dans cette grotte si tu n'était pas intervenu."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/03x_Final_Departure.cfg:86
@@ -1804,6 +1820,9 @@ msgid ""
 "\n"
 "Yet such is a small price for wisdom."
 msgstr ""
+"Parfaitement. Mon cœur s'est glacé quand j'ai appris ce passé honteux.\n"
+"\n"
+"C'est le prix à payer pour la sagesse."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/03x_Final_Departure.cfg:103
@@ -1833,7 +1852,7 @@ msgstr ""
 #. [scenario]: id=04_Journey
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:5
 msgid "Journey"
-msgstr "Périple"
+msgstr "Voyage"
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:17
@@ -1905,7 +1924,7 @@ msgstr "Vol Gorlack"
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:73
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:111
 msgid "Merfolk"
-msgstr "Ondin"
+msgstr "Ondins"
 
 #. [leader]: id=Nemas, type=Merman Warrior
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:76
@@ -1926,17 +1945,13 @@ msgstr "Poseira"
 
 #. [objective]: condition=win
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:149
-#, fuzzy
-#| msgid "Hold all villages by the end of turn 18"
 msgid "Hold all villages at the end of turn 18"
-msgstr "Posséder tous les villages au tour 18"
+msgstr "Posséder tous les villages au terme du tour 18"
 
 #. [objective]: condition=lose
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:153
-#, fuzzy
-#| msgid "Not hold all villages by the end of turn 18"
 msgid "Not hold all villages at the end of turn 18"
-msgstr "Ne pas posséder tous les villages au tour 18"
+msgstr "Ne pas posséder tous les villages au terme du tour 18"
 
 #. [note]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:168
@@ -1960,7 +1975,7 @@ msgstr "C'est l'été, les journées sont plus longues"
 #. [message]: speaker=Shussek
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:185
 msgid "Ssssss! Leave our reef, fish imps."
-msgstr ""
+msgstr "Ssssss ! Ouste de nos récifs, lutins des fonds marins."
 
 #. [message]: speaker=Poseira
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:189
@@ -1968,17 +1983,19 @@ msgid ""
 "Naga interlopers, these isles are now annexed to the realm of Lord Typhon, "
 "and by his decree, you are banished from them."
 msgstr ""
+"Intrus nagas, ces îles ont été annexées au domaine du seigneur Typhon et "
+"suivant sa volonté, vous en êtes bannis."
 
 #. [message]: speaker=Nemas
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:209
 msgid "My liege! Drakes have made landfall to your south!"
-msgstr ""
+msgstr "Seigneur ! Des dracans ont atterri au sud de nos positions."
 
 #. [message]: speaker=Poseira
 #. By ‘rocks’ he is referring to the Morogor Archipelago in a belittling way.
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:214
 msgid "Drakes?! By the gods, how can they be out this far from their rocks?"
-msgstr ""
+msgstr "Des dracans ? Comment peuvent-ils être si éloignés de leurs rochers ? "
 
 #. [message]: speaker=Shussek
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:220
@@ -1986,19 +2003,27 @@ msgid ""
 "Ssssss! What is this? You bring bizarre winged hirelings to our parley... "
 "Treachery!"
 msgstr ""
+"Ssssss ! Comment ? Vous avez amené une curieuse soldatesque ailée à nos "
+"pourparlers... Trahison !"
 
+# « Écarter » pour le jeu de mot « de-part your fins »
 #. [message]: speaker=Poseira
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:224
 msgid ""
 "Naga interlopers, this shall be my final warning to you, depart at once!"
 msgstr ""
+"Intrus nagas, ceci est mon dernier avertissement, écartez-vous de notre "
+"chemin !"
 
+# Voir « Écarter » du dialogue précédent
 #. [message]: speaker=Shussek
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:230
 msgid ""
 "We will ‘de-part’ your fins from you and gulp your fry by the thousands. "
 "Ssssss!"
 msgstr ""
+"On va vous 'écarte-ler' par les nageoires et ne faire qu'une bouchée de vos "
+"filets par milliers. Ssssss !"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:234
@@ -2006,6 +2031,8 @@ msgid ""
 "Long have the merfolk harried us.\n"
 "Now they hinder our journey across their ocean realm."
 msgstr ""
+"Les ondins nous harcèlent depuis trop longtemps.\n"
+"Maintenant ils bloquent notre passage à travers l'océan sous leur contrôle."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:241
@@ -2160,102 +2187,125 @@ msgstr ""
 #. [message]: speaker=Poseira
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:363
 msgid "Release the Krakens!"
-msgstr ""
+msgstr "Lâchez les krakens !"
 
+# Nom d'un kraken
 #. [case]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:381
 msgid "Slimysuckers"
-msgstr ""
+msgstr "Ventouses-molles"
 
+# Son d'un kraken
 #. [case]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:382
 msgid "Glarbelblarg!"
-msgstr ""
+msgstr "Glarbelblarg !"
 
+# Nom d'un kraken.
+# Orfraie: du latin ossifraga « briseur d'os »
+# Dans l'expression « pousser des cris d'orfraie », le terme « orfraie » est une association phonétique décalée qui a remplacé le terme « effraie »
 #. [case]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:387
 msgid "Creepytentacles"
-msgstr ""
+msgstr "Bras-d'orfraie"
 
+# Son d'un kraken
 #. [case]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:388
 msgid "Shluckplugle!"
-msgstr ""
+msgstr "Shluckplugle !"
 
+# Nom d'un kraken
 #. [case]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:393
 msgid "Largeeyes"
-msgstr ""
+msgstr "Gros-yeux"
 
+# Son d'un kraken
 #. [case]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:394
 msgid "Glarpglup!"
-msgstr ""
+msgstr "Glarpglup !"
 
+# Nom d'un kraken
 #. [case]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:399
 msgid "Stinkinink"
-msgstr ""
+msgstr "Encre-fétide"
 
 #. [case]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:400
 msgid "(<i>burp</i>)"
-msgstr ""
+msgstr "(<i>burp</i>)"
 
 #. [message]: speaker=Shussek
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:422
 msgid "Behold your doom!"
 msgstr ""
 
+# Nom d'un serpent de mer
+# Spicule: aiguillon calcaire
 #. [case]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:440
 msgid "Sharpspikes"
-msgstr ""
+msgstr "Spicules"
 
+# Cri du serpent de mer
 #. [case]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:441
 msgid "Graarrrrrr!"
-msgstr ""
+msgstr "Graarrrrrr !"
 
+# Nom d'un serpent de mer
+# Chitine : principal composant structurel des becs de céphalopodes
+# La nacre des huîtres perlières et de leurs perles est composée de chitine
 #. [case]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:446
 msgid "Shinyscales"
-msgstr ""
+msgstr "Chitine"
 
+# Cri du serpent de mer.
+# « To roar » est un verbe (rugir) mais je ne traduis pas par cohérence.
 #. [case]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:447
 msgid "Roarrrrrr!"
-msgstr ""
+msgstr "Roarrrrrr !"
 
+# Nom d'un serpent de mer
+# Rostre: appendice de forme allongée
 #. [case]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:452
 msgid "Longtooth"
-msgstr ""
+msgstr "Rostre"
 
+# Cri du serpent de mer
 #. [case]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:453
 msgid "Hissssss!"
-msgstr ""
+msgstr "Hissssss !"
 
+# Nom d'un serpent de mer
+# Pinnule: petite nageoire et petite plaque de métal percée
 #. [case]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:458
 msgid "Razorfin"
-msgstr ""
+msgstr "Pinnule"
 
+# Cri du serpent de mer
 #. [case]
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:459
 msgid "(<i>cough</i>) ...rawr"
-msgstr ""
+msgstr "(<i>tousse</i>) ...rawr"
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:507
 msgid "We seek an ally against these fiendish merfolk."
-msgstr ""
+msgstr "Nous cherchons des alliés contre ces satanés ondins."
 
 #. [message]: speaker=Shussek
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:513
 msgid "Ssssss? You will betray merfolk?"
-msgstr ""
+msgstr "Ssssss ? Vous allez vous retourner contre les ondins ?"
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:517
@@ -2266,7 +2316,7 @@ msgstr "... Oui."
 #. [message]: speaker=Shussek
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:523
 msgid "And then you take this reef from us? Ssssss!"
-msgstr ""
+msgstr "Et puis vous allez nous voler nos récifs... Hein ? Ssssss !"
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:527
@@ -2275,13 +2325,15 @@ msgid ""
 "We seek a right to respite here for those of our kind traveling past these "
 "isles."
 msgstr ""
+"Nous ne voulons qu'un relais pour que les nôtres se reposent en route pour "
+"au-delà de ces îles."
 
 #. [message]: speaker=Shussek
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:533
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:571
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:473
 msgid "What you say?"
-msgstr ""
+msgstr "Qu'est-ce à dire ?"
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:537
@@ -2289,31 +2341,34 @@ msgstr ""
 msgid ""
 "...... We have no need of your reef. We seek only the land above the sea."
 msgstr ""
+"...... Nous ne voulons pas vos récifs. Nous recherchons les terres par-delà "
+"la mer."
 
 #. [message]: speaker=Shussek
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:543
 msgid "You have a deal, sky monster. Merfolk will float dead on the waves!"
 msgstr ""
+"C'est entendu, monstrueux célestes. Les ondins morts vont couvrir les flots."
 
 #. [message]: speaker=Shussek
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:551
 msgid "Ssssss? You have betrayed merfolk?"
-msgstr ""
+msgstr "Ssssss ? Vous vous êtes retournés contre les ondins ?"
 
 #. [message]: speaker=Shussek
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:561
 msgid "And now you take this reef from us? Ssssss!"
-msgstr ""
+msgstr "Et maintenant vous allez nous voler nos récifs... Hein ? Ssssss !"
 
 #. [message]: speaker=Shussek
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:581
 msgid "So be it, sky monster."
-msgstr ""
+msgstr "Qu'il en soit ainsi, monstrueux céleste."
 
 #. [message]: speaker=Shussek
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:607
 msgid "Ssssss!"
-msgstr ""
+msgstr "Ssssss !"
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:654
@@ -2321,6 +2376,8 @@ msgid ""
 "All provisions are gathered; the flight is readied for departure, awaiting "
 "your command."
 msgstr ""
+"Les provisions sont faites ; le vol est prêt pour le départ, à votre "
+"commandement."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:658
@@ -2329,11 +2386,14 @@ msgid ""
 "\n"
 "Take wing!"
 msgstr ""
+"Je vous le donne.\n"
+"\n"
+"Prenez l'envol !"
 
 #. [scenario]: id=05_Threshold
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:5
 msgid "Threshold"
-msgstr ""
+msgstr "Seuil"
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:19
@@ -2341,6 +2401,8 @@ msgid ""
 "Gliders were dispatched back to Morogor with exacting details of the petty "
 "atoll’s location. The flight resumed its journey east."
 msgstr ""
+"Des tempêtes furent envoyées vers le Morogor pour rapporter les détails "
+"exacts sur la position du maigre atoll. Le vol reprit son voyage vers l'Est."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:22
@@ -2348,6 +2410,8 @@ msgid ""
 "The familiar rhythm of the long journey began anew. The aching of wings "
 "slowly returned."
 msgstr ""
+"Le rythme du long voyage s'imposa de nouveau, et lentement les douleurs "
+"familières revinrent dans les ailes."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:25
@@ -2355,6 +2419,8 @@ msgid ""
 "Then Gorlack, scouting far ahead with the forward wing, sighted it. Land as "
 "great as the ocean. The land without end."
 msgstr ""
+"C'est alors que, membre de l'escadre avant lancée en éclaireur, Gorlack "
+"l'aperçut. Terre aussi vaste que l'océan. Une terre sans fin."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:29
@@ -2363,16 +2429,19 @@ msgid ""
 "three isles. Here a narrow sea warded against the unknown perils of the "
 "Greatland."
 msgstr ""
+"Reshan persuada Gorlack de faire une première descente sur un archipel de "
+"trois îles voisines. Là, une mer peu profonde les protégeait des périls "
+"inconnus des Grandes-Terres."
 
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:42
 msgid "Forward Wing"
-msgstr ""
+msgstr "Escadre avancée"
 
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:68
 msgid "Haldric Creatures"
-msgstr ""
+msgstr "Créatures haldriques"
 
 #. [leader]: id=Rhynnin, type=Lieutenant
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:74
@@ -2387,31 +2456,35 @@ msgstr "Rhynnin"
 msgid "Elyn"
 msgstr "Elyn"
 
+# Nom de vaisseau, pas un artefact
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:100
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:128
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:161
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:194
 msgid "Sword of Aethyr"
-msgstr ""
+msgstr "Lame d'Aethyr"
 
+# Nom de vaisseau, pas un artefact
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:131
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:164
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:199
 msgid "Mace of Eldaric"
-msgstr ""
+msgstr "Masse d'Eldaric"
 
+# Nom de vaisseau, pas un artefact
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:158
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:191
 msgid "Addroran’s Gaze"
-msgstr ""
+msgstr "Vision d'Addroran"
 
+# Nom de vaisseau
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:195
 msgid "Stormvale"
-msgstr ""
+msgstr "Val aux orages"
 
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:200
@@ -2452,6 +2525,7 @@ msgstr "Oxepotex"
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:307
 msgid "I am Oxepotex! Massster tamer of beassstsss big and sssmall."
 msgstr ""
+"C'essst que moi : Oxepotex, le maître dompteur des bêtes grandes et petites !"
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:312
@@ -2460,31 +2534,38 @@ msgid ""
 "\n"
 "And get to work feeding your petsss!"
 msgstr ""
+"Calme-toi Oxe.\n"
+"\n"
+"C'essst que tu dois aller nourrir tes bêtes !"
 
 #. [message]: speaker=unit
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:340
 msgid "I hear..."
 msgstr "J'entends..."
 
+# Nom d'un rat
 #. [event]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:342
 msgid "Tidbit"
-msgstr ""
+msgstr "Bouchée"
 
+# Nom d'un rat
 #. [event]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:343
 msgid "Morsel"
-msgstr ""
+msgstr "Quignon"
 
+# Nom d'un rat
 #. [event]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:344
 msgid "Nibble"
-msgstr ""
+msgstr "Croûte"
 
+# Nom d'un rat
 #. [event]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:345
 msgid "Smidge"
-msgstr ""
+msgstr "Miette"
 
 #. [message]: speaker=unit
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:348
@@ -2494,7 +2575,7 @@ msgstr "Vermine !"
 #. [message]: speaker=Tidbit
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:352
 msgid "<i>Reeeeee!</i>"
-msgstr ""
+msgstr "<i>Reeeeee !</i>"
 
 #. [message]: speaker=unit
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:356
@@ -2568,6 +2649,8 @@ msgid ""
 "The humans and merfolk will attempt to recapture villages but wildlife will "
 "not"
 msgstr ""
+"Les humains et les ondins essaieront de reprendre les villages contrairement "
+"aux animaux sauvages"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:540
@@ -2586,12 +2669,17 @@ msgid ""
 "\n"
 "Some orcs may have drifted to here as well."
 msgstr ""
+"Le gibier semble plus rare que ce que ces îles pourraient nourrir...\n"
+"\n"
+"D'autres orcs doivent avoir dérivé jusqu'ici."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:554
 msgid ""
 "Then we shall seize their settlements to procure our flight’s sustenance."
 msgstr ""
+"Alors nous nous saisirons de leurs campements pour couvrir la subsistance du "
+"vol."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:558
@@ -2602,6 +2690,11 @@ msgid ""
 "There are hatchlings just below.\n"
 "They look to be in dire need of aid!"
 msgstr ""
+"Quelle est cette agitation en bas ?\n"
+"\n"
+"Des nouveaux-nés !\n"
+"Ce sont des nouveaux-nés en bas.\n"
+"Et ils ont l'air d'avoir bien besoin d'aide."
 
 #. [message]: speaker=Rhynnin
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:574
@@ -2617,7 +2710,7 @@ msgstr ""
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:580
 msgid "Another herd of those orc creatures..."
-msgstr ""
+msgstr "Une autre horde de ces créatures orques..."
 
 #. [message]: speaker=Reshan
 #. At this time, the drakes mistakenly believe humans call their race ‘haldric’ but this is actually the name of their king.
@@ -2626,6 +2719,8 @@ msgid ""
 "Nay, their weaponry is not crude enough.\n"
 "Those are haldric, creatures of much higher quality."
 msgstr ""
+"Non, leurs armes sont trop élaborées.\n"
+"Ce sont des haldriques, des créatures beaucoup plus raffinées."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:590
@@ -2634,6 +2729,9 @@ msgid ""
 "clear.\n"
 "Those hatchlings will be slain if our intervention is not swift."
 msgstr ""
+"Quand bien même les mots de l'haldrique me sont étrangers, la menace est "
+"claire dans leur ton.\n"
+"Ces nouveaux-nés seront exterminés si nous n'intervenons pas prestement."
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:728
@@ -2649,6 +2747,9 @@ msgid ""
 "\n"
 "These... are <b>not</b> hatchlings."
 msgstr ""
+"Reshan.\n"
+"\n"
+"Ce ne <b>sont pas</b> des nouveaux-nés."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:738
@@ -2656,6 +2757,8 @@ msgid ""
 "By the Winds, they are not.\n"
 "Their resemblance is so strikingly of hatchlings..."
 msgstr ""
+"Par tous les vents, tu as raison ! Ils ressemblent terriblement à nos "
+"nouveau-nés..."
 
 #. [message]: speaker=Arinexis
 #. This "rapid clicking" is either a sound made by the saurian tongue or by a non-mammalian vocal organ like the avian syrinx.
@@ -2665,11 +2768,14 @@ msgid ""
 "\n"
 "Hail, dragons! (<i>rapid clicking</i>) Down here!"
 msgstr ""
+"C'essst que des dragons de feu, hein Zedrix?\n"
+"\n"
+"Salut dragons ! (<i>caquètements rapides</i>) Ici, en-bas !"
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:752
 msgid "They are receiving us."
-msgstr ""
+msgstr "Ils nous appelent."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:758
@@ -2677,6 +2783,8 @@ msgid ""
 "Hail-loooo! Dragons, can you ssspeak? Zedrix, you sssaid dragons can "
 "ssssspeak!"
 msgstr ""
+"Làààà-haut dragons ! Essst-ce que vous parler ? Zedrix dit que les dragons "
+"parlent."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:762
@@ -2685,13 +2793,20 @@ msgid ""
 "\n"
 "You will do as I command!"
 msgstr ""
+"Petits !\n"
+"\n"
+"Vous voilà sous mon commandement !"
 
+# Je prends ici le "we hear you" comme une acceptation du commadement dracan.
+# Je traduits "signs" par "gemmes", puisque les sauriens les utilisent pour leur magie, alors qu'il n'ont pas de croyances astrologiques reconnues.
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:770
 msgid ""
 "By every sssign upon firmament, we hear you Shek’kahan! You are our "
 "moonlight!"
 msgstr ""
+"Par toutes les gemmes du firmament, c'essst qu'il en soit ainsi Shek’kahan ! "
+"Tu seras notre lune !"
 
 #. [message]: speaker=Elyn
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:789
@@ -2721,7 +2836,7 @@ msgstr ""
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:815
 msgid "Any lassst words, brute?"
-msgstr ""
+msgstr "Quels c'essst tes derniers mots, brute ?"
 
 #. [message]: speaker=Elyn
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:821
@@ -2733,13 +2848,22 @@ msgid ""
 "\n"
 "...you will never escape the King’s Justice..."
 msgstr ""
+"Vous avez juste gagné un peu de temps...\n"
+"\n"
+"Le roi n'aura aucune pitié pour les sauriens après votre attaque sournoise "
+"du Fort Elense...\n"
+"\n"
+"Vous ne pourrez échapper au bras de sa justice..."
 
+# J'essaie ici de rendre l'usage du vous étranger aux sauriens. Il l'utilise de façon condescendante mais l'émotion le submerge en pensant aux victimes.
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:829
 msgid ""
 "Your king’s <b>jussstice</b>?! Your king murdered my brood sssisssters "
 "unprovoked! Your Fort Elense sssitsss over their bones!"
 msgstr ""
+"La <b>justice</b> de vos roi ?! C'essst que vos roi a tué mes sœurs sans "
+"sommation ! Vos Fort Elenssse est bâti sur leur dépouille !"
 
 #. [message]: speaker=Elyn
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:835
@@ -2749,6 +2873,11 @@ msgid ""
 "...the elves would never have granted us sanctuary if he refused to do the "
 "deeds they asked of him..."
 msgstr ""
+"Le roi n'a fait que son devoir. Et que le père céleste le récompense pour "
+"ça...\n"
+"\n"
+"Les elfes n'auraient jamais donné un sanctuaire aux humains si il leur avait "
+"désobéi..."
 
 #. [message]: speaker=Elyn
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:843
@@ -2757,11 +2886,15 @@ msgid ""
 "\n"
 "...for we are only refugees here; doing what we must to survive..."
 msgstr ""
+"Chaque acte que nous accomplissons sur ces terres est justifié...\n"
+"\n"
+"... puisque nous avons dû nous réfugier ici et c'est la survie qui nous "
+"commande..."
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:849
 msgid "Ssso let that be your epitaph."
-msgstr ""
+msgstr "C'essst que sera ton épitaphe."
 
 #. [message]: speaker=narrator
 #. This text uses some Old English spelling where the "Þ" and "þ" characters mean "th", the word "iland" means "island" and the word "gosts" means "ghosts"
@@ -2796,12 +2929,12 @@ msgstr ""
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:897
 msgid "Beware the great maelstrom off the north coast."
-msgstr ""
+msgstr "Fais attention au grand maelstrom au large de la côte nord."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:901
 msgid "The tides are of no consequence to us, Reshan."
-msgstr ""
+msgstr "Les vagues ne nous atteindront pas, Reshan."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:905
@@ -2810,6 +2943,11 @@ msgid ""
 "I fear a thing most foul may lurk within there, even now.\n"
 "We would do well to keep our distance from it."
 msgstr ""
+"Dans un passé lointain, de tels maelstroms étaient la demeure de créatures "
+"immémoriales.\n"
+"Je crains que quelque chose de mauvais ne sorte de là, même si ces temps "
+"sont révolus.\n"
+"Nous devons toujours nous garder de nous en approcher trop."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:911
@@ -2817,6 +2955,8 @@ msgid ""
 "I shall keep that in mind.\n"
 "Carry on with your duty."
 msgstr ""
+"Je m'en rappellerai.\n"
+"Retourne à tes affaires."
 
 #. [message]: speaker=narrator
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:926
@@ -2825,6 +2965,9 @@ msgid ""
 "current seems to come entirely from deep below the sandy seabed. It emanates "
 "a faint melodic humming."
 msgstr ""
+"Un puissant maelstrom, entouré d'une eau paradoxalement calme. Les courants "
+"tourbillonnants semblent sortir directement de l'épaisse couche de sable "
+"sous-marin. Il émet un léger bourdonnement mélodique."
 
 #. [message]: speaker=narrator
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:930
@@ -2832,6 +2975,8 @@ msgid ""
 "The humming grows slowly louder as a cold mist begins to billow out. The "
 "mist somehow moves against the wind."
 msgstr ""
+"Le bourdonnement devient plus fort lorsque la brume se met à gonfler. La "
+"bruine se déplace contre le vent."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:934
@@ -2840,21 +2985,25 @@ msgid ""
 "\n"
 "Fly!"
 msgstr ""
+"Envole-toi de là !\n"
+"\n"
+"Vole !"
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:952
 msgid "It is just as I had feared."
-msgstr ""
+msgstr "C'est bien ce que je craignais."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:956
 msgid "Elaborate."
 msgstr "Que veux-tu dire ?"
 
+# Les marins utilisent souvent le terme de brume quelle que soit la visibilité [https://fr.wikipedia.org/wiki/Brouillard]
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:960
 msgid "This is a <i>living mist</i>, a creature of the Faerie."
-msgstr ""
+msgstr "C'est une <i>brume vivante</i>, une créature de féerie."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:964
@@ -2863,6 +3012,9 @@ msgid ""
 "terms.\n"
 "We should evade it if we can."
 msgstr ""
+"Sans notre vol, nous ne sommes pas de force suffisante pour engager le "
+"combat contre cet ennemi.\n"
+"Nous devons fuir tant que c'est possible."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:1003
@@ -2904,12 +3056,12 @@ msgstr ""
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:1033
 msgid "Make it so."
-msgstr ""
+msgstr "Exécution."
 
 #. [scenario]: id=05x_Early_Arrival
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:5
 msgid "Early Arrival"
-msgstr ""
+msgstr "Arrivée anticipée"
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:18
@@ -2927,11 +3079,13 @@ msgid ""
 "Then, only a moon cycle after, a flight was spotted inbound. It was the "
 "Flight of Karron."
 msgstr ""
+"Juste une lune plus tard, un autre vol était annoncé à l'approche. C'était "
+"le vol Karron."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:24
 msgid "They had arrived far too early..."
-msgstr ""
+msgstr "Ils arrivaient bien trop tôt..."
 
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:37
@@ -2942,7 +3096,7 @@ msgstr "Dracans"
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:137
 msgid "Karron, you did not wait for my summons!"
-msgstr ""
+msgstr "Karron, tu devais attendre mon signal !"
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:141
@@ -2959,7 +3113,7 @@ msgstr ""
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:153
 msgid "Vladnir will not last with <b>no</b> ally by his side."
-msgstr ""
+msgstr "Vladnir ne pourra tenir <b>sans</b> alliés à ses côtés."
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:157
@@ -2967,6 +3121,8 @@ msgid ""
 "Vladnir is to follow me here.\n"
 "By now he is already faring."
 msgstr ""
+"Vladnir doit me suivre ici.\n"
+"À cet instant, il est déjà en mouvement."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:164
@@ -2974,6 +3130,8 @@ msgid ""
 "We have not yet the provisions for three flights within this domain.\n"
 "There could be hunger before the next moon!"
 msgstr ""
+"Mais nous n'avons pas de quoi nourrir trois vols dans ce domaine !\n"
+"La famine pourrait sévir avant la prochaine lune."
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:169
@@ -2982,16 +3140,20 @@ msgid ""
 "\n"
 "Gorlack, hatchlings do not belong at a counsel gathering."
 msgstr ""
+"Gorlack, on doit—\n"
+"\n"
+"Gorlack, ces nouveaux-nés ne peuvent pas participer aux sessions du conseil."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:177
 msgid "We are <b>not</b> hatchlings..."
-msgstr ""
+msgstr "Nous ne <b>sommes pas</b> des nouveaux-nés..."
 
+# Au singulier, comme « pas né de la dernière pluie », càd avec une expérience à partager
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:183
 msgid "Not hatchlings!"
-msgstr ""
+msgstr "Pas nouveau-né !"
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:189
@@ -2999,11 +3161,13 @@ msgid ""
 "Indeed, I am our clan’s elder. Sssuch longevity wandering ssstars bestow me. "
 "For over 11 years have I lived."
 msgstr ""
+"C'essst que je suis l'aîné de mon clan. En vérité, j'ai longtemps erré sous "
+"le ciel aux gemmes brillantes. Car onze années j'ai vécu."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:195
 msgid "They are ‘saurians’."
-msgstr ""
+msgstr "Ce sont des \"sauriens\"."
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:199
@@ -3012,6 +3176,9 @@ msgid ""
 "Disturbingly so.\n"
 "I do not want them near my fli—"
 msgstr ""
+"Leur ressemblance avec nos nouveaux-nés est confondante.\n"
+"Troublante même.\n"
+"Je ne les veux pas près de m—"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:207
@@ -3025,6 +3192,9 @@ msgid ""
 "\n"
 "Reshan, see to it at once."
 msgstr ""
+"Je vais commander un relevé précis du gibier sur les Grandes-Terres.\n"
+"\n"
+"Reshan, organise-le sans délais."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:221
@@ -3038,11 +3208,13 @@ msgid ""
 "northeast.\n"
 "A nest of haldric."
 msgstr ""
+"Gorlack, en arrivant ici j'ai vu une grande quantité de gibier au nord-est.\n"
+"Une colonie de haldriques."
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:239
 msgid "You sssaw Demon King?! You sssssaw <b>The Haldric</b>?"
-msgstr ""
+msgstr "Vous avez vu le roi-démon ?! Vous avez vu <b>Le Haldric</b> ?"
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:243
@@ -3088,6 +3260,9 @@ msgid ""
 "\n"
 "I remember, long ago..."
 msgstr ""
+"J'entends la langue hésitante de Reshan bouger dans ta bouche.\n"
+"\n"
+"Je me rappelle qu'il y a longtemps..."
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:275
@@ -3108,6 +3283,9 @@ msgid ""
 "Look around us.\n"
 "It is not the ocean we stand upon."
 msgstr ""
+"Ce ne sont pas des mythes, Karron.\n"
+"Regarde autour de nous.\n"
+"Ce n'est pas une masse d'eau sur laquelle nous nous tenons."
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:292
@@ -3134,6 +3312,8 @@ msgid ""
 "You dwell so much in the past.\n"
 "The past weakens you."
 msgstr ""
+"Tu te penches trop sur le passé.\n"
+"Le passé t'engourdit."
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:315
@@ -3199,7 +3379,7 @@ msgstr "Reine Jessene"
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:89
 msgid "Lance of Ladoc"
-msgstr ""
+msgstr "Lance de Ladoc"
 
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:104
@@ -3243,6 +3423,9 @@ msgid ""
 "\n"
 "Within sight of these humans!"
 msgstr ""
+"Gorlack, tu as déjà atterri !\n"
+"\n"
+"En pleine vue de ces humains !"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:192
@@ -3296,6 +3479,7 @@ msgstr "Des dragons ?!"
 msgid ""
 "Indeed sir, they are moving in from our south. There is a horde of them."
 msgstr ""
+"Affirmatif, monsieur. Ils viennent par le sud. Toute une horde de dragons."
 
 #. [message]: speaker=Vorlyan
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:260
@@ -3321,7 +3505,7 @@ msgstr ""
 #. [message]: speaker=Iryn
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:279
 msgid "Might we be overreacting, sir?"
-msgstr ""
+msgstr "Se pourrait-il que l'on surréagisse, monsieur ?"
 
 #. [message]: speaker=Vorlyan
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:284
@@ -3329,6 +3513,8 @@ msgid ""
 "We are students of war, Captain, and if recent years have taught our people "
 "anything, it is to be ready for the worst at all times."
 msgstr ""
+"Nous sommes des étudiants de la guerre, capitaine. Et si le passé récent "
+"nous a bien enseigné, nous savons qu'il faut toujours être paré au pire."
 
 #. [message]: speaker=Iryn
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:290
@@ -3338,7 +3524,7 @@ msgstr "Bien, monsieur !"
 #. [message]: speaker=narrator
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:313
 msgid "Do you wish to light the beacon?"
-msgstr ""
+msgstr "Voulez-vous allumer le feu de détresse ?"
 
 #. [option]
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:316
@@ -3353,7 +3539,7 @@ msgstr "Oui"
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:404
 msgid "I see we shall eat well this day!"
-msgstr ""
+msgstr "Ce jour, nous serons bien repus !"
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:415
@@ -3367,6 +3553,9 @@ msgid ""
 "return to live here again. Sssaurian Empire will lassst thirteen millennia "
 "more!"
 msgstr ""
+"Fort Elenssse brûle, en cendre pour toujours ! Le nid de ma naisssance est "
+"libre et mon peuple peut s'y installer de nouveau. C'essst qu'un nouvel "
+"empire saurien pour les cent-trente siècles qui viennent !"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:430
@@ -3374,6 +3563,8 @@ msgid ""
 "Learn from this victory, Reshan.\n"
 "See now the futility of your doubt."
 msgstr ""
+"Tire la leçon de cette victoire, Reshan.\n"
+"Et contemple la futilité de tes doutes."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:437
@@ -3384,11 +3575,17 @@ msgid ""
 "\n"
 "Though our Windpath is now unknowable, I fear it leads to war."
 msgstr ""
+"Hélas Gorlack, avec cette victoire mes craintes triplent.\n"
+"Nous avons foncé la tête la première dans le chaos, dans la tornade primaire "
+"des vents du destin.\n"
+"\n"
+"Si le courant qui nous porte est inconnaissable, je crains qu'il nous pousse "
+"vers la guerre."
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:444
 msgid "There can be no <i>war</i> in a land with prey so plenty."
-msgstr ""
+msgstr "Il n'y aura plus de guerre sur une terre au gibier si abondant."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:450
@@ -3397,11 +3594,16 @@ msgid ""
 "\n"
 "They could very well outmatch us."
 msgstr ""
+"Ces créatures ne sont pas du gibier\n"
+"\n"
+"Elles pourraient tout aussi bien nous dominer."
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:456
 msgid "... You witnessed only moments ago how we slew a nest of them utterly."
 msgstr ""
+"... Tu viens d'assister à la destruction totale d'un de leurs nids par nos "
+"forces."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:460
@@ -3411,6 +3613,10 @@ msgid ""
 "I relieve you of all duties.\n"
 "Return to the eyrie until your sense recovers."
 msgstr ""
+"Reshan, peut-être que ... toutes ces patrouilles t'ont épuisé.\n"
+"\n"
+"Je te libère de tes obligations.\n"
+"Retourne dans ton domaine pour y retrouver tes sens."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:467
@@ -3437,6 +3643,8 @@ msgid ""
 "I come with tidings, fellow dominant.\n"
 "Half of Morogor makes ready for the journey here."
 msgstr ""
+"Je viens avec les marées, frères dominants.\n"
+"La moitié du Morogor fait les préparatifs pour le voyage jusqu'ici."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:26
@@ -3456,6 +3664,9 @@ msgid ""
 "Nothing will delay their coming.\n"
 "All that before stirred one flight against another, now drives them here."
 msgstr ""
+"Plus rien ne peut les retarder.\n"
+"Ce qui poussait les vols les uns contre les autres, maintenant les pousse "
+"tous ici."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:42
@@ -3463,6 +3674,8 @@ msgid ""
 "Then their needs will be met.\n"
 "I shall expand the hunt so as to meet them."
 msgstr ""
+"Tous leurs besoins seront couverts.\n"
+"J'étendrai la chasse pour y répondre."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:48
@@ -3474,6 +3687,12 @@ msgid ""
 "Elsewise... you doom this expedition by following the shameful Windpath of "
 "Dominant Morogor."
 msgstr ""
+"Gorlack, tu dois revoir ces plans, du début à la fin.\n"
+"\n"
+"Arrête la chasse.\n"
+"\n"
+"Sinon... tu condamneras cette expédition en suivant la trainée honteuse du "
+"dominant Morogor."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:57
@@ -3483,6 +3702,10 @@ msgid ""
 "Dominant Morogor betrayed his own kith; he attacked the very drakes with "
 "whom he had sworn alliance!"
 msgstr ""
+"Je constate que tu n'as toujours pas retrouvé tes sens, Reshan.\n"
+"\n"
+"Dominant Morogor a trahi ses parents ; il a attaqué les mêmes dracans "
+"auxquels il avait juré alliance."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:64
@@ -3543,6 +3766,9 @@ msgid ""
 "\n"
 "By the Honor of my Caste in whole, I hereby Proclaim it so."
 msgstr ""
+"Ce que ton second intendant dit est la vérité, dominant Gorlack.\n"
+"\n"
+"Sur l'honneur de ma caste toute entière, je le proclame officiellement."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:114
@@ -3550,6 +3776,8 @@ msgid ""
 "Dominant Vladnir... never since the exiling has another caste verified our "
 "Spoken Memories."
 msgstr ""
+"Dominant Vladnir... Depuis l'exil, aucune mémoire révélée d'une autre caste "
+"n'a jamais été vérifiée."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:119
@@ -3585,12 +3813,12 @@ msgstr ""
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:144
 msgid "Speak no more of your secrets."
-msgstr ""
+msgstr "Assez de tes secrets !"
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:149
 msgid "... Gorla—"
-msgstr ""
+msgstr "... Gorla—"
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:154
@@ -3602,6 +3830,12 @@ msgid ""
 "All useless, as an entire age passed while every one of you feared to act on "
 "what you knew!"
 msgstr ""
+"Il est clair maintenant que tu t'accroches à des lambeaux du passé, tu t'arc-"
+"boutes sur eux.\n"
+"Secrets des cogneurs.\n"
+"Mémoires révélées des tempêtes.\n"
+"Balivernes dont vous avez été incapables de tirer rien d'utile face aux "
+"défis de temps changeants."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:162
@@ -3611,6 +3845,10 @@ msgid ""
 "\n"
 "If we do not heed them, I fear—"
 msgstr ""
+"Gorlack, les secrets des cogneurs pourraient contenir des détails sur les "
+"Grandes-Terres inconnus de nos mémoires révélées.\n"
+"\n"
+"Nous devrions les écouter, sinon je crains—"
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:169
@@ -3622,6 +3860,12 @@ msgid ""
 "Yet still you feel not how we shift the Winds of Fate by the force of our "
 "Will."
 msgstr ""
+"Assez de tes craintes !\n"
+"\n"
+"Nous avons relevé tant de challenges.\n"
+"Vaincu tant d'ennemis.\n"
+"Mais tu ne vois pas que la force de notre volonté a fait plier les vents du "
+"destin."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:178
@@ -3630,6 +3874,10 @@ msgid ""
 "\n"
 "While the Spoken Memories tell us steady wings may catch the Winds of Fate—"
 msgstr ""
+"... Gorlack, tes propos sont incompréhensibles.\n"
+"\n"
+"Si les mémoires révélées disent que des ailes fermes peuvent se gonfler des "
+"vents du destin—"
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:185
@@ -3650,7 +3898,7 @@ msgstr ""
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:200
 msgid "Perhaps you need witness one final demonstration..."
-msgstr ""
+msgstr "Tu as peut-être besoin d'une dernière démonstration..."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:205
@@ -3670,7 +3918,7 @@ msgstr ""
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:219
 msgid "Then... so it will be..."
-msgstr ""
+msgstr "Alors... Qu'il en soit ainsi..."
 
 #. [scenario]: id=07_Harvest
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:5
@@ -3717,7 +3965,7 @@ msgstr "Salennea"
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:106
 msgid "Tree Fellows"
-msgstr ""
+msgstr "Troupes des bois"
 
 #. [leader]: id=Gulladrumm, type=Ancient Wose
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:110
@@ -3727,7 +3975,7 @@ msgstr "Gulladrumm"
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:144
 msgid "Sea Fellows"
-msgstr ""
+msgstr "Troupes des mers"
 
 #. [leader]: id=Pelgara, type=Mermaid Enchantress
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:148
@@ -3737,7 +3985,7 @@ msgstr "Pelgara"
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:172
 msgid "Ornery Pets"
-msgstr ""
+msgstr "Animaux d'agrément"
 
 #. [leader]: id=Princess Mew, type=Leopard
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:176
@@ -3747,7 +3995,7 @@ msgstr "Princesse Mew"
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:194
 msgid "Wesmere March Guard"
-msgstr ""
+msgstr "Guarde de la marche de Wesmere"
 
 #. [leader]: id=Vonel, type=Elvish Marshal
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:198
@@ -3767,7 +4015,7 @@ msgstr "Tuer toutes les proies"
 #. [note]
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:258
 msgid "Opponents will remain passive until attacked"
-msgstr ""
+msgstr "Les ennemis resteront passifs tant qu'ils ne sont pas attaqués"
 
 #. [note]
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:261
@@ -3780,6 +4028,8 @@ msgstr ""
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:264
 msgid "Anyone standing on wildfire for a turn suffers 16 fire damage"
 msgstr ""
+"Toute unité qui reste dans un feu de forêt pendant un tour prendra 16 points "
+"de dommage au feu"
 
 #. [message]: speaker=Vonel
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:275
@@ -3788,6 +4038,9 @@ msgid ""
 "\n"
 "This is the sovereign realm of Wesmere. No further may you go."
 msgstr ""
+"Vous, les monstres là-haut ! Halte !\n"
+"\n"
+"Ceci est le domaine souverain de Wesmere. Son accès vous est interdit."
 
 #. [message]: speaker=Salennea
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:283
@@ -3797,11 +4050,16 @@ msgid ""
 "We must look deeper than their hideous and odious exteriors. Look deep to "
 "the beauty within!"
 msgstr ""
+"Des monstres ?! C'est toi le monstre, Vonel, qui crache un tel venin de "
+"haine !\n"
+"\n"
+"Il faut regarder au-delà d'une apparence laide et méchante et voir la beauté "
+"intérieure. "
 
 #. [message]: speaker=Vonel
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:294
 msgid "Princess, I beg of you, walk not again into jeopardy!"
-msgstr ""
+msgstr "Princesse, je vous supplie de rester en sécurité cette fois-ci."
 
 #. [message]: speaker=Salennea
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:300
@@ -3809,11 +4067,13 @@ msgid ""
 "Be silent, Vonel. For I am no mere “princess” awaiting your salvation; I am "
 "a Lady of Wesmere!"
 msgstr ""
+"Tais-toi, Vonel ! Car je ne suis pas une simple \"princesse\" qui attend "
+"votre secours. Je suis une dame de Wesmere !"
 
 #. [message]: speaker=Vonel
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:304
 msgid "<small><i>you will always be a princess to me...</i></small>"
-msgstr ""
+msgstr "<small><i>vous serez toujours une princesse pour moi...</i></small>"
 
 #. [message]: speaker=Salennea
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:310
@@ -3832,7 +4092,7 @@ msgstr ""
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:318
 msgid "These creatures of yours ramble incomprehensibly."
-msgstr ""
+msgstr "Ces créatures divaguent complètement."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:322
@@ -3874,7 +4134,7 @@ msgstr ""
 #. [message]: speaker=Vonel
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:350
 msgid "Nay! This is a March of Wesmere, we shall not..."
-msgstr ""
+msgstr "Négatif ! Ceci est la marche de Wesmere, nous ne..."
 
 #. [message]: speaker=Salennea
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:356
@@ -3883,6 +4143,9 @@ msgid ""
 "\n"
 "Let all be welcome to Wesmere!"
 msgstr ""
+"Les marches nous divisent, Vonel.\n"
+"\n"
+"Que tous soient les bienvenus à Wesmere !"
 
 #. [message]: speaker=Salennea
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:369
@@ -3919,11 +4182,13 @@ msgid ""
 "We are ssssso weary... let usss dissscusss sssuch sssmall details in good "
 "time."
 msgstr ""
+"C'essst que nous sommes si fatigués... Discutons de ces détails au moment "
+"opportun."
 
 #. [message]: speaker=Salennea
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:395
 msgid "But of course."
-msgstr "Mais bien sûr."
+msgstr "Mais certainement."
 
 #. [message]: speaker=Salennea
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:408
@@ -3931,6 +4196,8 @@ msgid ""
 "Vonel, have you seen my personal diary anywhere? It was in the safe keeping "
 "of a handmaiden of mine, but she has gone missing."
 msgstr ""
+"Vonel, aurais-tu vu mon journal intime quelque part ? Je l'avais confié à "
+"une de mes gouvernantes, mais elle a disparu."
 
 #. [message]: speaker=Vonel
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:413
@@ -3938,16 +4205,18 @@ msgid ""
 "<i>Another</i> of your handmaidens is missing? Since when has she gone "
 "missing?"
 msgstr ""
+"<i>Encore</i> une gouvernante qui a disparu ? Depuis quand n'a-t-elle plus "
+"donné de signe de vie ?"
 
 #. [message]: speaker=Salennea
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:419
 msgid "Since I sent her to feed my precious aethenwood tygers."
-msgstr ""
+msgstr "Quand je l'ai envoyée nourrir mes précieux tigres d'Aethenwood."
 
 #. [message]: speaker=Nomeon
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:423
 msgid "<i>Oh my...</i>"
-msgstr ""
+msgstr "<i>Qu'est-ce...</i>"
 
 #. [message]: speaker=Salennea
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:429
@@ -3956,16 +4225,20 @@ msgid ""
 "\n"
 "My diary is very personal, Vonel!"
 msgstr ""
+"Quand tu auras fait retrouver mon journal, veille à ce que quiconque ne le "
+"lise—\n"
+"\n"
+"Mon journal intime est très personnel, Vonel !"
 
 #. [message]: speaker=Vonel
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:435
 msgid "Of course, m’Lady."
-msgstr ""
+msgstr "C'est entendu, mademoiselle."
 
 #. [message]: speaker=narrator
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:449
 msgid "“The Diary of Lady Salennea”"
-msgstr ""
+msgstr "“Le Journal de dame Salennea”"
 
 #. [message]: speaker=narrator
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:454
@@ -4054,6 +4327,8 @@ msgid ""
 "Might I tempt you with some of the finest floral refreshments of elvish "
 "cuisine?"
 msgstr ""
+"Puis-je vous servir un rafraîchissement à base de fleurs typique de notre "
+"cuisine elfe ?"
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:522
@@ -4070,28 +4345,35 @@ msgid ""
 "We elves of Wesmere have moved on from this matter and we hope you shall as "
 "well!"
 msgstr ""
+"Le Ka'lian ne peut confirmer ni infirmer toute implication.\n"
+"\n"
+"Nous, elfes de Wesmere, avons passé outre de telles récriminations et "
+"espérons que vous ferez de même !"
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:534
 msgid "Oh we will move on, we will..."
-msgstr ""
+msgstr "Oh, nous passserons outre, outre..."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:538
 msgid "...as sssoon as we have finished with you here."
-msgstr ""
+msgstr "... vous et vos avertisssements pathétiques."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:542
 msgid "Gorlack, pray position your hunters well and then let usss attack!"
-msgstr ""
+msgstr "Gorlack, prends position avec tes chassseurs et qu'on attaque !"
 
+# L'utilisation de "monsters" est douteuse, puisqu'elle s'est opposée à ce terme avant et qu'elle les appelle toujours "gentle giants" un peu plus tard.
 #. [message]: speaker=Salennea
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:558
 msgid ""
 "Nay! This is a thing too terrible to foresee. Vonel, save me from these "
 "monsters!"
 msgstr ""
+"Oh non ! Qu'une chose si terrible advienne, c'était imprévisible. Vonel, "
+"sauve-moi de ces griffres !"
 
 #. [message]: speaker=Vonel
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:563
@@ -4100,6 +4382,9 @@ msgid ""
 "\n"
 "Dispatch doves to the Ka’lian with word of our peril here!"
 msgstr ""
+"J'arrive à votre rescousse, mademoiselle !\n"
+"\n"
+"Lâchez les pigeons pour prévenir le Ka'lian du péril qui nous accable."
 
 #. [message]: speaker=Nomeon
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:571
@@ -4109,11 +4394,16 @@ msgid ""
 "\n"
 "I shall bring word myself!"
 msgstr ""
+"Dame Salennea les a relâchés en forêt ce matin par souci pour leur bien-"
+"être...\n"
+"\n"
+"J'irai porter le message moi-même !"
 
 #. [message]: speaker=Vonel
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:578
 msgid "Nay, I need you here to defend this march until your dying bre—"
 msgstr ""
+"Négatif, j'ai besoin de toi pour défendre la marche jusqu'à ton dernier souf—"
 
 #. [message]: speaker=Vonel
 #. [message]: speaker=Zedrix
@@ -4130,6 +4420,8 @@ msgid ""
 "You have slain me, Vonel. Your bias and slander against these gentle giants "
 "imbued them with a terrible yet justifiable wrath!"
 msgstr ""
+"Vonel, tu m'as condamnée. Tes préjugés et tes calomnies à l'encontre de ces "
+"doux géants les ont poussés dans une colère funeste mais justifiée !"
 
 #. [message]: speaker=Vonel
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:614
@@ -4139,27 +4431,34 @@ msgid ""
 "\n"
 "Naaaaaaaay!"
 msgstr ""
+"Ah si je vous avais seulement écouté, mademoiselle... <small><i>ma "
+"princesse</i></small> ...\n"
+"\n"
+"Noooon!"
 
 #. [event]
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:629
 msgid "$unit.name finds a shiny sapphire. Do you want this unit to take it?"
 msgstr ""
+"$unit.name trouve un saphir brilliant. Voulez-vous le donner à cette unité ?"
 
 #. [event]
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:630
 msgid "Sapphire of Ice^Take it"
-msgstr ""
+msgstr "Oui, qu'elle le prenne"
 
 #. [event]
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:631
 msgid "Sapphire of Ice^Leave it"
-msgstr ""
+msgstr "Non, qu'elle le laisse"
 
 #. [event]
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:632
 msgid ""
 "$unit.name finds a shiny sapphire. But only a speaking unit can take it!"
 msgstr ""
+"$unit.name trouve un saphir brilliant. Mais seule une unité parlante peut le "
+"prendre !"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:641
@@ -4192,12 +4491,12 @@ msgstr ""
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:68
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:85
 msgid "Strange Creatures"
-msgstr ""
+msgstr "Créatures étranges"
 
 #. [leader]: id=Avatar of Nova, type=Ancient Lich
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:72
 msgid "Avatar of Nova"
-msgstr ""
+msgstr "Avatar de Nova"
 
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:105
@@ -4217,27 +4516,29 @@ msgstr "Portes"
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:171
 msgid "Passage Gate"
-msgstr ""
+msgstr "Porte du passage"
 
 #. [objective]: condition=win
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:214
 msgid "Gorlack, Reshan, Arinexis and Zedrix reach the cave exit"
-msgstr ""
+msgstr "Mener Gorlack, Reshan, Arinexis et Zedrix à la sortie de la grotte"
 
 #. [note]
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:237
 msgid "When the heroes exit, anyone left on the map will die"
 msgstr ""
+"Quand tous les héros sont sortis, toutes les unités restantes sur la carte "
+"mourront"
 
 #. [note]
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:240
 msgid "Anyone that exits before the heroes do will survive"
-msgstr ""
+msgstr "Toutes les unités sorties avant les héros survivront"
 
 #. [note]
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:243
 msgid "Unrecalled veterans will survive"
-msgstr ""
+msgstr "Les vétérans non-rappelés survivront"
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:253
@@ -4249,32 +4550,33 @@ msgstr ""
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:259
 msgid "‘Sssibblings of Sssetting Sssun’"
-msgstr ""
+msgstr "‘Fraternité du soleil couchant’"
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:263
 msgid "‘Union of Saurgrath and Morogor’"
-msgstr ""
+msgstr "‘Union de Saurgrath et Morogor’"
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:269
 msgid "‘Alignment of Moon and Sssun’"
-msgstr ""
+msgstr "‘Alignement de la lune et du soleil’"
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:273
 msgid "‘Sandwalkers’"
-msgstr ""
+msgstr "‘Rôdeurs des sables’"
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:279
 msgid "‘League of Ssseven Sssilver Ssstars and Five Fish of Firmament’"
 msgstr ""
 
+# Difficile de mettre 'peuple' puisque ça concerne deux races
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:283
 msgid "‘Sandfolks’!"
-msgstr ""
+msgstr "‘Maîtres des sables’ !"
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:289
@@ -4286,7 +4588,7 @@ msgstr ""
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:293
 msgid "You <b>will</b> be silent."
-msgstr "Je ne <b>veux plus</b> t'entendre."
+msgstr "Je ne <b>veux plus</b> vous entendre."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:311
@@ -4294,11 +4596,13 @@ msgid ""
 "Report, Reshan.\n"
 "There are still nine wings yet to rejoin us!"
 msgstr ""
+"Au rapport, Reshan.\n"
+"Il y a encore huit escadres qui manquent à l'appel !"
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:316
 msgid "Gorlack, the wings are slain."
-msgstr ""
+msgstr "Gorlack, les escadres ont été abattues."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:320
@@ -4314,11 +4618,16 @@ msgid ""
 "A full host of them now pursues us here.\n"
 "We must retreat to the eyrie with all haste."
 msgstr ""
+"La jungle nous a caché le nombre réel d'elfes.\n"
+"Et notre fierté nous a empêchés de reconnaître leur valeur.\n"
+"\n"
+"Nous en avons maintenant une foule à notre poursuite.\n"
+"Il faut nous hâter de nous replier à la base."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:341
 msgid "They are coming..."
-msgstr ""
+msgstr "Ils arrivent..."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:345
@@ -4328,26 +4637,33 @@ msgid ""
 "We must not forsake it.\n"
 "Too much depends on it."
 msgstr ""
+"Notre butin est si grand qu'il nous faudrait une douzaine de voyages.\n"
+"\n"
+"On ne peut pas l'abandonner là.\n"
+"Le sort de tant d'entre nous en dépend."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:352
 msgid "Through thisss cave! Essscape through here..."
-msgstr ""
+msgstr "Par cette grotte ! Notre retraite passse par là..."
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:367
 msgid "With care, Arinexis, with care! Fire dussst is ssstrewn about."
 msgstr ""
+"Fais attention, Arinexis ! C'essst que la pousssière de feu est partout."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:371
 msgid "Dragons, do not breath on thisss dussst!"
-msgstr ""
+msgstr "Dragons, retenez votre souffle près de cette pousssière."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:375
 msgid "Fire Dust... enough to bring down this cave behind us..."
 msgstr ""
+"De la poudre inflammable... Assez pour faire sauter cette grotte derrière "
+"nous..."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:379
@@ -4369,8 +4685,9 @@ msgstr ""
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:393
 msgid "Reshan... about <b><i>that</i></b> cave... there is someth—"
-msgstr ""
+msgstr "Reshan... À propos de <b><i>cette</i></b> grotte... je dois te dir—"
 
+# "Land gliders": escorteurs elfes
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:411
 msgid ""
@@ -4378,6 +4695,9 @@ msgid ""
 "\n"
 "Their aim must be to delay us before the arrival of the others."
 msgstr ""
+"Des tempêtes des forêts !\n"
+"\n"
+"Leur plan doit être de nous ralentir avant l'arrivée des autres."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:417
@@ -4386,6 +4706,9 @@ msgid ""
 "\n"
 "The rest of you, into the cave!"
 msgstr ""
+"Il ne faut que quelques troupes pour tenir l'entrée.\n"
+"\n"
+"Les autres, tous dans la grotte !"
 
 #. [message]: speaker=narrator
 #. "Lodestone Mines of Golden Wolf Clan"
@@ -4425,17 +4748,17 @@ msgstr ""
 #. [message]: speaker=Avatar of Nova
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:549
 msgid "Is that you again, Khrakrahs?"
-msgstr ""
+msgstr "Est-ce encore toi, Khrakrahs ?"
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:553
 msgid "It is to his ssstronger brother, Shek’kahan, that you ssspeak!"
-msgstr ""
+msgstr "C'essst que tu parles à Shek’kahan, le plus fort de ses frères !"
 
 #. [message]: speaker=Avatar of Nova
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:559
 msgid "As you say."
-msgstr "Comme tu dis."
+msgstr "Si tu le dis..."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:563
@@ -4444,6 +4767,9 @@ msgid ""
 "\n"
 "You are advised to move aside."
 msgstr ""
+"Je vais traverser cette montagne.\n"
+"\n"
+"Et je te conseille de dégager."
 
 #. [message]: speaker=Avatar of Nova
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:571
@@ -4530,17 +4856,17 @@ msgstr ""
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:648
 msgid "You will..."
-msgstr ""
+msgstr "Je t'accorde..."
 
 #. [option]
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:650
 msgid "have your truce."
-msgstr ""
+msgstr "la trêve que tu demandes."
 
 #. [message]: speaker=Avatar of Nova
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:666
 msgid "Thank you, Gorlack and Reshan."
-msgstr ""
+msgstr "Merci à vous, Gorlack et Reshan."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:670
@@ -4554,21 +4880,22 @@ msgstr ""
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:678
 msgid "The gate blocking your passage is no more. Hurry, there is little time."
 msgstr ""
+"La porte qui bloquait notre passsage n'est plus. Vite, le temps presse."
 
 #. [option]
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:683
 msgid "meet your doom."
-msgstr ""
+msgstr "la mort que tu mérites."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:687
 msgid "Your chance for clemency has expired."
-msgstr ""
+msgstr "Tu as laissé passer ton dernier sursis."
 
 #. [message]: race=drake
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:716
 msgid "Such a sickly looking creature."
-msgstr ""
+msgstr "Quelle créature malaisante."
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:720
@@ -4576,17 +4903,21 @@ msgid ""
 "That is a ssskeletoid — humans’ true and ssstrongessst form. Every human "
 "that dies sssomeday rises again as one of those."
 msgstr ""
+"Un squelettoïde — c'essst que la forme la plus pure et la plus terrible de "
+"l'humain. Chaque humain mort se relève ainsi."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:724
 msgid ""
 "Unlesss you burn, crush or eat the bones firssssst. Never leave the bones!"
 msgstr ""
+"Si tu n'en as pas brûlé, écrasé ou mangé les os. Ne jamais laissser les os "
+"intacts !"
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:741
 msgid "Nay. Gorlack, I shall not depart this cave before you!"
-msgstr ""
+msgstr "Non, Gorlack, je ne quitterai pas cette grotte sans toi !"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:755
@@ -4595,6 +4926,9 @@ msgid ""
 "\n"
 "Yet I shall not forsake them to such a place as this."
 msgstr ""
+"Nos deux sauriens ne peuvent pas tenir l'allure.\n"
+"\n"
+"Mais je ne peux pas les abandonner dans une telle situation."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:800
@@ -4604,16 +4938,20 @@ msgid ""
 "\n"
 "Leave this cave behind."
 msgstr ""
+"Vas-y mon ami.\n"
+"Je vais couvrir ta retraite.\n"
+"\n"
+"Laisse cette grotte derrière toi."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:809
 msgid "Nay, there is no time, we leave now."
-msgstr ""
+msgstr "Nenni, le temps est trop court, on quitte maintenant."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:813
 msgid "Tell Karron I always regretted taking his place."
-msgstr ""
+msgstr "Dis bien à Karron que je n'ai jamais voulu prendre sa place."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:819
@@ -4621,11 +4959,13 @@ msgid ""
 "Reshan, we leave this cave together.\n"
 "Just like we did the first one."
 msgstr ""
+"Reshan, on quittera cette grotte ensemble.\n"
+"Comme on l'a fait dans l'autre."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:824
 msgid "Farewell my friend..."
-msgstr ""
+msgstr "Adieu mon ami..."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:830
@@ -4635,17 +4975,18 @@ msgstr "Reshan..."
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:855
 msgid "My wings catch the Winds of Fate..."
-msgstr ""
+msgstr "Mes ailes sont prises dans les vents du destin..."
 
+# Après son sacrifice, 'ami' semble un peu simple.
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:22
 msgid "My friend..."
-msgstr "Mon ami..."
+msgstr "Mon frère..."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:25
 msgid "I have slain you..."
-msgstr ""
+msgstr "Je t'ai tué..."
 
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:63
@@ -4685,18 +5026,18 @@ msgstr "Yéti"
 #. [objective]: condition=win
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:170
 msgid "Gorlack must reach the beacon at the northern volcano"
-msgstr ""
+msgstr "Gorlack doit atteindre le signal sur le volcan nord"
 
 #. [objective]: condition=win
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:174
 msgid "From there, make your final stand"
-msgstr ""
+msgstr "Là-bas, combattre à mort"
 
 #. [note]
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:194
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:574
 msgid "It is winter, nighttime is longer"
-msgstr ""
+msgstr "C'est l'hiver, la nuit est plus longue"
 
 #. [event]
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:248
@@ -4727,16 +5068,21 @@ msgstr ".................."
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:284
 msgid "I must relay what I know to Dominant Karron, should he still live."
 msgstr ""
+"Je dois retrouver Karron pour lui passer ces informations, si il est "
+"toujours en vie."
 
+# Mise au féminin (« une tempête »)
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:288
 msgid "Glider, take care."
-msgstr ""
+msgstr "Tempête, sois prudente."
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:303
 msgid "Cold ssseason has arrived. Many moons of cold are now upon usssss."
 msgstr ""
+"C'essst que la saison froide est là. De nombreuses lunes de froid tombent "
+"sur nous."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:307
@@ -4753,7 +5099,7 @@ msgstr ""
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:415
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:598
 msgid "‘ BAK NEKST SPRING ’"
-msgstr ""
+msgstr "‘ RETOUR AU PRINTEMPS ’"
 
 #. [unit]: id=Khrakrahs, type=Fire Dragon
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:444
@@ -4783,6 +5129,9 @@ msgid ""
 "\n"
 "I do not believe what I see..."
 msgstr ""
+"Wouah !\n"
+"\n"
+" Je n'en crois pas mes yeux..."
 
 #. [message]
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:523
@@ -4818,17 +5167,17 @@ msgstr ""
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:546
 msgid "It is... an Ancestor..."
-msgstr ""
+msgstr "C'est... un ancêtre..."
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:550
 msgid "Shek'kahan, do you not recognize Khrakrahs...?"
-msgstr ""
+msgstr "Shek'kahan, tu ne reconnais pas Khrakrahs ?"
 
 #. [objective]: condition=win
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:554
 msgid "Make your final stand"
-msgstr ""
+msgstr "Combattre jusqu'à la mort"
 
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:588
@@ -4838,7 +5187,7 @@ msgstr "Disparais."
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:601
 msgid "Your challenge is accepted."
-msgstr ""
+msgstr "Je relève ton défi."
 
 #. [message]: speaker=unit
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:605
@@ -4853,7 +5202,7 @@ msgstr "Je reviendrai."
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:654
 msgid "Show yourself!"
-msgstr ""
+msgstr "Montre-toi !"
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:658
@@ -4863,12 +5212,12 @@ msgstr "Khrakrahs, il est ici..."
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:674
 msgid "Behold, mighty Shek'kahan!"
-msgstr ""
+msgstr "Prends garde, puisssant Shek'kahan !"
 
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:680
 msgid "You are bold to present such an imposter!"
-msgstr ""
+msgstr "Tu es bien hardi de soutenir une telle imposture !"
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:684
@@ -4878,17 +5227,22 @@ msgid ""
 "I am elder of Green Swamp Clan and all my years Shek'kahan protected usss. I "
 "could never missstake sssome impossster for him!"
 msgstr ""
+"Imposture ?!\n"
+"\n"
+"Je suis le sage du clan du marais vert et Shek'kahan nous a protégés toute "
+"ma vie. Comment pourrais-je le confondre avec un imposteur ?"
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:690
 msgid ""
 "If you do not sssee this is Shek’kahan... then impossster is <b>you</b>!"
 msgstr ""
+"Si tu ne reconnais pas Shek’kahan... c'essst que <b>tu</b> es l'imposteur !"
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:694
 msgid "Do not sssay ssso much, Zedrix! You will be eaten!"
-msgstr ""
+msgstr "Ne parle pas tant, Zedrix ! Il va te manger !"
 
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:700
@@ -4896,18 +5250,22 @@ msgid ""
 "You are bold indeed, little saurian. What you have told me is false, yet a "
 "mere liar could not speak so bravely before a dragon."
 msgstr ""
+"Tu es bien courageux, petit saurien. Ce que tu dis est faux, mais un menteur "
+"ne parlerait pas si bravement face à un dragon."
 
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:706
 msgid ""
 "Indeed, your heart believes the falsehood you speak... because it wishes to."
 msgstr ""
+"Si tu crois les mensonges que tu professes... c'est que ton cœur le désire."
 
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:716
 msgid "<span color='cyan'>Zedrix, your Heart shall Reveal its Truth.</span>"
-msgstr ""
+msgstr "<span color='cyan'>Zedrix, que ton cœur révèle la vérité.</span>"
 
+# « Habitants » au lieu de « sujets »
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:727
 msgid ""
@@ -4916,11 +5274,15 @@ msgid ""
 "\n"
 "... of which I am all that is left."
 msgstr ""
+"Khrakrahs... Shek’kahan est mort. Il est tombé en protégeant son domaine et "
+"ses habitants...\n"
+"\n"
+"... dont je suis le seul survivant."
 
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:735
 msgid "So then it is true..."
-msgstr ""
+msgstr "Ainsi, c'était vrai."
 
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:741
@@ -4944,21 +5306,24 @@ msgid ""
 "\n"
 "Yet to his last breath, he was fearless."
 msgstr ""
+"Ancêtre, tu dis que Shek'kahan était devenu faible...\n"
+"\n"
+"Mais il est resté intrépide jusqu'à son dernier souffle."
 
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:766
 msgid "Yes, Shek'kahan was fearless."
-msgstr ""
+msgstr "Oui, Shek'kahan était intrépide."
 
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:772
 msgid "<b>That</b> was his weakness."
-msgstr ""
+msgstr "<b>C'était</b> sa faiblesse."
 
 #. [scenario]: id=10_Fire_Meets_Steel
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:11
 msgid "Fire Meets Steel"
-msgstr ""
+msgstr "Feu contre acier"
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:23
@@ -4980,7 +5345,7 @@ msgstr ""
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:68
 msgid "Deep Dwellers"
-msgstr ""
+msgstr "Habitants des fonds"
 
 #. [leader]: id=Thurdakor, type=Dwarvish Berserker
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:72
@@ -4990,7 +5355,7 @@ msgstr "Thurdakor"
 #. [message]: speaker=Thurdakor
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:124
 msgid "Reinforcements! Send in th’ neist wave!"
-msgstr ""
+msgstr "Renforts ! Lancez la vague suivante !"
 
 #. [objective]: condition=win
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:303
@@ -5005,28 +5370,33 @@ msgstr ""
 
 #. [note]
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:325
+#, fuzzy
 msgid "Dwarves will emerge from their tunnels every wave"
-msgstr ""
+msgstr "Les nains sortiront par vague de leurs tunnels"
 
 #. [note]
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:328
+#, fuzzy
 msgid "Moving anyone to a tunnel will destroy it"
-msgstr ""
+msgstr "Les tunnels sont détruits en y plaçant une unité"
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:347
+#, fuzzy
 msgid "I sssee now you are not Shek’kahan. I sssaw as I wished to sssee."
 msgstr ""
+"Je vois clair maintenant que tu n'es pas Shek’kahan. Je te voyais comme je "
+"voulais te voir."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:351
 msgid "As have I..."
-msgstr "Comme j'ai..."
+msgstr "Moi pareillement..."
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:355
 msgid "What do you mean?"
-msgstr ""
+msgstr "Qu'essst-ce que tu veux dire ?"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:359
@@ -5044,15 +5414,21 @@ msgstr ""
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:370
+#, fuzzy
 msgid ""
 "I thought myself invulnerable, the hero in my own tale.\n"
 "I charged at the beast, striking with bare claws, spitting feeble sparks.\n"
 "\n"
 "With one swipe I was sent to the ground, bleeding."
 msgstr ""
+"Je me croyais invulnérable, le héros de ma propre histoire.\n"
+"Je chargeai la bête à griffes nues, crachotant d'éparses étincelles.\n"
+"\n"
+"D'une frappe, il m'envoya au sol, en sang. "
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:377
+#, fuzzy
 msgid ""
 "My body froze me as it readied to flee...\n"
 "\n"
@@ -5060,6 +5436,11 @@ msgid ""
 "\n"
 "Flee... abandon Reshan to die..."
 msgstr ""
+"Je perdis le contrôle de mon corps, exigeant la fuite...\n"
+"\n"
+"Le désir de fuir fut irrépressible.\n"
+"\n"
+"Fuir... abandonner Reshan à son sort..."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:385
@@ -5075,6 +5456,7 @@ msgstr ""
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:395
+#, fuzzy
 msgid ""
 "That is when I felt it beneath my right wing.\n"
 "A clasher’s spear, broken a reach beneath the head.\n"
@@ -5082,15 +5464,25 @@ msgid ""
 "\n"
 "It was there now."
 msgstr ""
+"C'est là que je la sentis à hauteur de mon aile droite.\n"
+"La lance d'un cogneur, au manche cassé près de la pointe.\n"
+"Elle n’était pas là, quand j'étais entré dans la grotte.\n"
+"\n"
+"Elle était là dorénavant."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:403
+#, fuzzy
 msgid ""
 "The rogue turned to finish Reshan.\n"
 "\n"
 "I threw myself upon it with all my hate.\n"
 "The spear I ran deep into its cold heart."
 msgstr ""
+"Le rogue se tourna pour achever Reshan.\n"
+"\n"
+"Je me lançai sur lui avec toute la force de ma haine.\n"
+"La lance s'enfonçant comme j'avançais dans son cœur froid."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:410
@@ -5099,46 +5491,61 @@ msgid ""
 "\n"
 "Ever since have I fled the fear that drove me toward such vile cowardice."
 msgstr ""
+"Depuis lors, je n'ai fait confiance qu'à ce feu qui sauva mon ami...\n"
+"\n"
+"Dès lors, j'ai fuit cette peur qui me poussa vers une telle bassesse."
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:416
+#, fuzzy
 msgid "You shunned Reshan’s fears too."
-msgstr ""
+msgstr "Tu bloquas aussi les peurs de Reshan."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:420
+#, fuzzy
 msgid "Breathing in his fears could chill my heart to cowardice."
-msgstr ""
+msgstr "Sentir sa peur aurait poussé mon cœur à la lâcheté."
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:424
+#, fuzzy
 msgid ""
 "Yet his heart was brave.\n"
 "\n"
 "His fear for you made it ssso."
 msgstr ""
+"Et pourtant, son cœur était brave.\n"
+"\n"
+"C'essst que la peur qu'il avait de toi le rendait ainsi."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:430
+#, fuzzy
 msgid "...... It did."
-msgstr ""
+msgstr "...... C'est ainsi."
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:434
+#, fuzzy
 msgid "Your fear for him made you brave."
-msgstr ""
+msgstr "Tes craintes pour lui te rendirent brave."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:438
+#, fuzzy
 msgid "A discarded spear made me brave."
-msgstr ""
+msgstr "Une lance perdue me rendit brave."
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:442
+#, fuzzy
 msgid ""
 "That ssspear was your means to sssave your friend. It appeared <b>as</b> you "
 "feared for him. Because you did."
 msgstr ""
+"Cette lance, c'était ton moyen de sauver ton ami. Elle est apparue <b>quand</"
+"b> tu as eu peur pour lui, c'essst parce que tu as eu peur."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:446
@@ -5147,9 +5554,13 @@ msgstr "............"
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:466
+#, fuzzy
 msgid "Come ssswiftly! Deep dwellers emerge!"
-msgstr ""
+msgstr "Vite ! Des habitants des fonds émergent !"
 
+# Que dire ? Je ne vais pas tenter la traduction littérale.
+# Le fait que le-dit berzerker conclura un deal plus tard dans le scénario en état d'ébriété rend la chose encore plus grotesque.
+# Qu'est-ce que je vois ? Des dragons ici... Tant de dragons que je n'en crois pas mes yeux.
 #. [message]: speaker=Thurdakor
 #. Somehow this dwarf clan has come under the leadership of a berserker, who naturally loves fighting and drinking and drunken fighting.
 #. His speech is a semi-coherent drunken ramble in an extremely thick mountain–dialect.
@@ -5162,14 +5573,19 @@ msgstr ""
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:509
+#, fuzzy
 msgid "It ssspeaksss but I hear no words... deep dwellers mussssst be drunken."
 msgstr ""
+"Il parle mais les mots ne sortent pas... C'essst que les habitants des fonds "
+"sont ivres. "
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:515
+#, fuzzy
 msgid "It sssaid “dragons” and... <i>sssssomething</i> about dragons."
-msgstr ""
+msgstr "Il dit « dragons » et... <i>quelque chose</i> sur les dragons."
 
+# Bon, vous allez m'écouter, dragons... Je vais pas pouvoir vous laisser rester ici tout l'hiver, laissant vos déchets sur les pentes gelées qui vont tout boucher au dégel comme cette fois-là à Knalga.
 #. [message]: speaker=Thurdakor
 #. Here "you-know-what" is being used as a euphemism for 'raw sewage'.
 #. The dwarf idiom "Knalgan gusher" refers to the underground dwarf city of Knalga having a catastrophic failure of its sewage system at some point in the past.
@@ -5184,11 +5600,15 @@ msgstr ""
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:534
+#, fuzzy
 msgid ""
 "I do not grasp the words you speak.\n"
 "Use fewer of them with less haste."
 msgstr ""
+"Je ne comprends pas un mot de ce que tu dis.\n"
+"Limite-toi aux plus simples, à vitesse réduite."
 
+# Là, sous les cieux les plus noirs, qu'est-ce que ça veut dire ?! Je vais te montrer—
 #. [message]: speaker=Thurdakor
 #. "Now just what in the fiendish skies above is that supposed to mean?! I will have you know—"
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:543
@@ -5199,9 +5619,11 @@ msgstr ""
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:549
+#, fuzzy
 msgid "Your hornblower ssspews notesss over your words!"
-msgstr ""
+msgstr "C'essst que ton souffleur de corne couvre tes paroles !"
 
+# Ne l'écoute pas, il a vraiment trop bu.
 #. [message]: speaker=Thurdakor
 #. "Just ignore him, he had awefully much to drink."
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:554
@@ -5210,9 +5632,11 @@ msgstr ""
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:560
+#, fuzzy
 msgid "If you depart now no harm will come to you."
-msgstr ""
+msgstr "Si tu t'en vas, nous ne te ferons aucun mal."
 
+# Eh, vous avez tous bien vu, les gars. J'ai bien essayé de raisonner ce dragon mais ils ne comprennent qu'une chose : le tranchant de nos haches.
 #. [message]: speaker=Thurdakor
 #. By "boys" he is referring to his own men in a lighthearted way.
 #. "Well that is it then, boys. You all saw how I tried to be reasonable. But there is no reasoning with dragons. They only know the bite of our axes."
@@ -5236,19 +5660,25 @@ msgstr ""
 #. [message]: speaker=Thurdakor
 #. "What's this? How did you get all the way over here?"
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:617
+#, fuzzy
 msgid "Whit’s this? How did ye git a’ th’ wey ower ’ere?"
-msgstr ""
+msgstr "Hein quoi ? Comment ont-ils fait pour parvenir jusqu'ici ?"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:632
+#, fuzzy
 msgid ""
 "Behold what ends you have wrought.\n"
 "You can no easier cast us off these peaks than we could pull you from the "
 "deep."
 msgstr ""
+"Vois quel destin tu t'es forgé.\n"
+"Tu ne peux pas nous expulser de ces sommets plus qu'on ne peut vous déloger "
+"des fonds."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:639
+#, fuzzy
 msgid ""
 "I offer you this pact.\n"
 "\n"
@@ -5257,53 +5687,75 @@ msgid ""
 "The vast under world beneath these we shall not violate.\n"
 "Both of us may hunt the lowlands so long as one takes not the other as game."
 msgstr ""
+"Je te propose un pacte.\n"
+"\n"
+"Les sommets sont à nous.\n"
+"Et leur sous-sol nourissent exclusivement nos forges.\n"
+"Le vaste monde souterrain nous n'y accéderons pas.\n"
+"Nous pouvons tous chasser dans les plaines tant les uns ne prennent pas les "
+"autres pour gibier."
 
 #. [message]: speaker=Thurdakor
 #. "Not sure I like the sound of this deal."
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:649
+#, fuzzy
 msgid "Nae sure ah like the sound o’ this deal."
-msgstr ""
+msgstr "Je n'aime pas vraiment l'air de cette proposition."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:655
+#, fuzzy
 msgid ""
 "It is the best you will have.\n"
 "We covet the soil as little as you do the clouds.\n"
 "We shall find no better neighbors than each other."
 msgstr ""
+"C'est la seule qui te sera offerte.\n"
+"Nous ne convoitons les terres pas plus que vous ne visez les nuages.\n"
+"On ne devrait pas trouver de voisons plus accommodants."
 
 #. [message]: speaker=Thurdakor
 #. "You're not easy to haggle with, dragon."
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:662
+#, fuzzy
 msgid "Yer nae easy tae haggle with, dragon."
-msgstr ""
+msgstr "Tu es dur en négoce, dragon."
 
 #. [message]: speaker=Thurdakor
 #. "So be it, a deal we have. I will even release my little prize dragon captive for you."
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:667
+#, fuzzy
 msgid ""
 "Sae be it, a deal we hae. Ah wull even release mah wee prize dragon captive "
 "fur ye."
 msgstr ""
+"C'est bon, l'affaire est conclue. Et je t'offre en prime mon petit dragon en "
+"captivité."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:762
+#, fuzzy
 msgid "Gorlack, it seems no cave can keep us!"
-msgstr ""
+msgstr "Gorlack, toutes ces grottes sont trop petites pour nous contenir !"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:768
+#, fuzzy
 msgid ""
 "reshan...\n"
 "\n"
 "Reshan!"
 msgstr ""
+"Reshan...\n"
+"\n"
+"Reshan !"
 
 #. [message]: speaker=Thurdakor
 #. "Well, that is it for me, back down the chute." He is going back down to his underground realm.
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:775
+#, fuzzy
 msgid "Well, that is it fur me, back doon th’ shute."
-msgstr ""
+msgstr "Bon, j'en ai fini ici. Je retourne dans ma tannière."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:795
@@ -5317,23 +5769,26 @@ msgstr ""
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:803
+#, fuzzy
 msgid "My friend, I am once again in your debt."
-msgstr ""
+msgstr "Mon ami, je te dois à nouveau la vie."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:809
+#, fuzzy
 msgid "Nay, Reshan, it is I that owes you."
-msgstr ""
+msgstr "Non Reshan. C'est moi qui te dois la mienne."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:815
+#, fuzzy
 msgid "Come, we have much to prepare for."
-msgstr ""
+msgstr "Allons, nous avons pas mal de choses à faire."
 
 #. [scenario]: id=11_Crosswind
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:9
 msgid "Crosswind"
-msgstr "Vents de travers"
+msgstr "Vent de travers"
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:22
@@ -5401,8 +5856,9 @@ msgstr ""
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:240
+#, fuzzy
 msgid "Yesss!"
-msgstr ""
+msgstr "Yesss !"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:246
@@ -5484,8 +5940,9 @@ msgstr ""
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:300
+#, fuzzy
 msgid "Lisssten to Karron!"
-msgstr ""
+msgstr "Écoute Karron !"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:306
@@ -5515,6 +5972,7 @@ msgstr ""
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:326
+#, fuzzy
 msgid ""
 "We are far beyond Morogor.\n"
 "\n"
@@ -5522,7 +5980,7 @@ msgid ""
 msgstr ""
 "Nous sommes bien loin de Morogor.\n"
 "\n"
-"Son code ne s'applique plus en ces lieux."
+"Son code ne s'applique plus ici."
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:332
@@ -5576,10 +6034,13 @@ msgstr "Quoiqu'il importe. Karron ne doit pas être sous-estimé."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:399
+#, fuzzy
 msgid ""
 "Karron, you are only dragon left with ssscales. I choose to rejoin your "
 "hunt. Many of usss will follow you."
 msgstr ""
+"Karron, tu es le ssseul dragon qui a gardé ses écailles. Je rejoins ton "
+"groupe. Et beaucoup d'entre-nous te suivront."
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:403
@@ -5596,8 +6057,11 @@ msgstr ""
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:411
+#, fuzzy
 msgid "Arinexis, do not leave our new clan, it is not sssafe!"
 msgstr ""
+"Arinexis, c'essst que tu ne dois pas quitter notre nouveau clan, c'essst "
+"dangereux !"
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:415
@@ -5611,46 +6075,61 @@ msgstr ""
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:423
+#, fuzzy
 msgid "I have ssseen too many moons. My feet grow weary and ssslow. I ssstay."
 msgstr ""
+"J'ai vu passser trop de lunes. C'essst que mes pieds sont las et lourds. Je "
+"reste."
 
 #. [event]
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:433
 msgid "Reks"
 msgstr "Reks"
 
+# Une relation pas très claire entre un troll et un saurien : 'green', 'ancient', 'pet'.
+# J'opte pour bizut (un peu un 'pet'), qui rappelle un peu le 'green' (un bleu) et le status de non-ancien
 #. [message]: speaker=Reks
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:439
+#, fuzzy
 msgid "Greeeeeen one, <i>there</i> you are."
-msgstr ""
+msgstr "Bizut vert, te <i>voici</i> donc."
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:445
+#, fuzzy
 msgid "It is I, Ancient One. I ssseek your help."
-msgstr ""
+msgstr "C'essst que moi, je viens chercher ton aide, Ancien."
 
 #. [message]: speaker=Reks
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:449
+#, fuzzy
 msgid "Reks help favorite pet. Reks help green one."
-msgstr ""
+msgstr "Reks aidera un fidèle compagnon. Reks aidera un bizut vert."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:465
+#, fuzzy
 msgid ""
 "Hail, Shussek.\n"
 "\n"
 "You are strangely far flown from that shoal you so coveted."
 msgstr ""
+"Salut, Shussek.\n"
+"\n"
+"Tu t'es étrangement éloigné des bancs que tu convoitais tant."
 
 #. [message]: speaker=Reshan
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:477
+#, fuzzy
 msgid "...... You are far from your reef."
-msgstr ""
+msgstr "... Tu es loin de tes récifs."
 
 #. [message]: speaker=Shussek
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:483
+#, fuzzy
 msgid "Odious fish imps took our reef from us again! Ssssss!"
 msgstr ""
+"Ces sales lutins des fonds marins nous ont encore pris nos récifs ! Ssssss !"
 
 #. [event]
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:493
@@ -5659,8 +6138,9 @@ msgstr "Xatra"
 
 #. [message]: speaker=Xatra
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:502
+#, fuzzy
 msgid "What is meaning of thisssss?!"
-msgstr ""
+msgstr "Qu'essst-ce c'essst que çà ?!"
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:506
@@ -5670,8 +6150,9 @@ msgstr ""
 
 #. [message]: speaker=Xatra
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:512
+#, fuzzy
 msgid "Yet I feel all thirteen years in my bones!"
-msgstr ""
+msgstr "Chacune de mes treize années pèse sur mes vieux os !"
 
 #. [message]: speaker=unit
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:529
@@ -5820,12 +6301,17 @@ msgstr "......"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:805
+#, fuzzy
 msgid ""
 "Karron, I banish you from this Greatland, from these far lands of the east.\n"
 "Not as the victor vanquishing a rival as it was in the contention...\n"
 "\n"
 "As a friend seeking to keep you from the turmoil that is soon to be."
 msgstr ""
+"Karron, je te chasse de nos Grandes-Terres, de toutes les terres à l'Est.\n"
+"Pas comme un vainqueur qui punit son rival à l'issue d'un combat...\n"
+"\n"
+"Comme un ami qui cherche à t'épargner la tourmente qui pointe à l'horizon."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:814
@@ -5842,8 +6328,11 @@ msgstr ""
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:824
+#, fuzzy
 msgid "Prey can no more make war on us than could the clouds."
 msgstr ""
+"Elles ne peuvent pas nous faire la guerre, ainsi que ne le pourraient les "
+"nuages."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:830
@@ -5920,16 +6409,20 @@ msgstr ""
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:895
+#, fuzzy
 msgid ""
 "So it must be...\n"
 "\n"
 "May your fire light the way in darkness."
 msgstr ""
+"Qu'il en soit ainsi...\n"
+"\n"
+"Que ton feu éclaire le chemin à travers les ténèbres."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:903
 msgid "May your wings catch the winds to soar."
-msgstr ""
+msgstr "Que tes ailes se gonflent aux vents ascendants."
 
 #. [scenario]: id=12_Epilogue
 #: data/campaigns/Winds_of_Fate/scenarios/12_Epilogue.cfg:5
@@ -6016,8 +6509,9 @@ msgstr "baliste"
 
 #. [attack]: type=impact
 #: data/campaigns/Winds_of_Fate/units/Caravel.cfg:65
+#, fuzzy
 msgid "polybolos"
-msgstr ""
+msgstr "multi-bolas"
 
 #. [unit_type]: id=Dolphin, race=monster
 #: data/campaigns/Winds_of_Fate/units/Dolphin.cfg:5
@@ -6026,6 +6520,7 @@ msgstr "Dauphin"
 
 #. [unit_type]: id=Dolphin, race=monster
 #: data/campaigns/Winds_of_Fate/units/Dolphin.cfg:8
+#, fuzzy
 msgid ""
 "The sight of a dolphin is seen as a good omen by the sailors of Elensefar "
 "and the Ka’lian rated the creature’s sensibility nearly on par with that of "
@@ -6034,11 +6529,19 @@ msgid ""
 "One of the rare air breathing fish, the dolphin is never too long below the "
 "surface of the sea."
 msgstr ""
+"L'apparition d'un dauphin est vue comme un bon présage pour les marins "
+"d'Elensefar et le Ka’lian juge la perceptibilité de cette créature proche de "
+"celle des elfes. Les orcs des hordes côtières consomment leur viande comme "
+"un mets délicat.\n"
+"\n"
+"Poisson qui respire de l'air, le dauphin n'est jamais loin en dessous de la "
+"surface des flots."
 
 #. [attack]: type=impact
 #: data/campaigns/Winds_of_Fate/units/Dolphin.cfg:62
+#, fuzzy
 msgid "shriek"
-msgstr ""
+msgstr "cri"
 
 #. [unit_type]: id=Gate, race=mechanical
 #: data/campaigns/Winds_of_Fate/units/Gate.cfg:5
@@ -6047,8 +6550,9 @@ msgstr "Portail"
 
 #. [unit_type]: id=Gate, race=mechanical
 #: data/campaigns/Winds_of_Fate/units/Gate.cfg:9
+#, fuzzy
 msgid "An old gate of highest quality."
-msgstr ""
+msgstr "Une vieille porte d'exceptionnelle facture."
 
 #. [unit_type]: id=Leopard, race=monster
 #: data/campaigns/Winds_of_Fate/units/Leopard.cfg:5
@@ -6070,8 +6574,9 @@ msgstr "griffes"
 
 #. [unit_type]: id=Outrigger, race=mechanical
 #: data/campaigns/Winds_of_Fate/units/Outrigger.cfg:5
+#, fuzzy
 msgid "Outrigger"
-msgstr ""
+msgstr "Pirogue à balancier"
 
 #. [unit_type]: id=Outrigger, race=mechanical
 #: data/campaigns/Winds_of_Fate/units/Outrigger.cfg:8
@@ -6091,6 +6596,7 @@ msgstr ""
 msgid "boarders"
 msgstr ""
 
+# wikipedia: "The onager, also known as hemione". Hein ?
 #. [attack]: type=fire
 #: data/campaigns/Winds_of_Fate/units/Outrigger.cfg:63
 msgid "onager"
@@ -6098,8 +6604,9 @@ msgstr ""
 
 #. [unit_type]: id=Storm Daemon, race=monster
 #: data/campaigns/Winds_of_Fate/units/Storm_Daemon.cfg:5
+#, fuzzy
 msgid "Storm Daemon"
-msgstr ""
+msgstr "Démon orage"
 
 #. [unit_type]: id=Storm Daemon, race=monster
 #: data/campaigns/Winds_of_Fate/units/Storm_Daemon.cfg:8
@@ -6116,23 +6623,27 @@ msgstr ""
 
 #. [attack]: type=impact
 #: data/campaigns/Winds_of_Fate/units/Storm_Daemon.cfg:79
+#, fuzzy
 msgid "whirlwind"
-msgstr ""
+msgstr "tourbillon"
 
 #. [attack]: type=cold
 #: data/campaigns/Winds_of_Fate/units/Storm_Daemon.cfg:88
+#, fuzzy
 msgid "squall"
-msgstr ""
+msgstr "bourrasque"
 
 #. [attack]: type=arcane
 #: data/campaigns/Winds_of_Fate/units/Storm_Daemon.cfg:101
 msgid "lightning"
 msgstr "foudre"
 
+# Dans la mythologie grecque, les oiseaux du lac Stymphale se nourrissaient de chair humaine
 #. [unit_type]: id=Stymphalian, race=monster
 #: data/campaigns/Winds_of_Fate/units/Stymphalian.cfg:5
+#, fuzzy
 msgid "Stymphalian"
-msgstr ""
+msgstr "Stymphale"
 
 #. [unit_type]: id=Stymphalian, race=monster
 #: data/campaigns/Winds_of_Fate/units/Stymphalian.cfg:8
@@ -6143,13 +6654,15 @@ msgstr ""
 
 #. [attack]: type=pierce
 #: data/campaigns/Winds_of_Fate/units/Stymphalian.cfg:73
+#, fuzzy
 msgid "stiletto beak"
-msgstr ""
+msgstr "bec-aiguille"
 
 #. [attack]: type=blade
 #: data/campaigns/Winds_of_Fate/units/Stymphalian.cfg:82
+#, fuzzy
 msgid "bladed feathers"
-msgstr ""
+msgstr "plumes coupantes"
 
 #. [damage]: id=blast
 #: data/campaigns/Winds_of_Fate/utils/abilities.cfg:9
@@ -6159,8 +6672,9 @@ msgstr "rafale"
 
 #. [damage]: id=blast
 #: data/campaigns/Winds_of_Fate/utils/abilities.cfg:11
+#, fuzzy
 msgid "This attack also harms everyone near the opponent."
-msgstr ""
+msgstr "Cette attaque blesse tous ceux aux côtés de la cible."
 
 #: data/campaigns/Winds_of_Fate/utils/characters.cfg:66
 msgid "Arinexis"
@@ -6172,8 +6686,9 @@ msgstr "Zedrix"
 
 #. [message]: speaker=unit
 #: data/campaigns/Winds_of_Fate/utils/deaths.cfg:12
+#, fuzzy
 msgid "So much left... unfinished..."
-msgstr ""
+msgstr "Tant.. reste à faire..."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/utils/deaths.cfg:27
@@ -6182,13 +6697,15 @@ msgstr "Reshan !"
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/utils/deaths.cfg:42
+#, fuzzy
 msgid "Arinexisss... Your time hass come too sssoon!"
-msgstr ""
+msgstr "Arinexisss... Ta dernière heure vient bien trop tôt !"
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/utils/deaths.cfg:57
+#, fuzzy
 msgid "My dragon, I have failed you..."
-msgstr ""
+msgstr "Mon dragon, je n'ai pas été à la hauteur..."
 
 #. [floating_text]
 #: data/campaigns/Winds_of_Fate/utils/macros.cfg:66

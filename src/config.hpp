@@ -1,5 +1,5 @@
 /*
-	Copyright (C) 2003 - 2022
+	Copyright (C) 2003 - 2023
 	by David White <dave@whitevine.net>
 	Part of the Battle for Wesnoth Project https://www.wesnoth.org/
 
@@ -520,6 +520,13 @@ public:
 	 * or nullptr if it does not exist.
 	 */
 	const attribute_value *get(config_key_type key) const;
+
+    /**
+     * Chooses a value. If the value specified by @a key is
+     * blank, then @a default_key is chosen instead.
+     * If both values are blank or not set, then an empty value is returned.
+     */
+    const attribute_value& get_or(const config_key_type key, const config_key_type default_key) const;
 
 	/**
 	 * Function to handle backward compatibility

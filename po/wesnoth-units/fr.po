@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-04-16 00:58 UTC\n"
-"PO-Revision-Date: 2023-03-20 13:45+0100\n"
+"POT-Creation-Date: 2023-08-20 01:56 UTC\n"
+"PO-Revision-Date: 2023-05-02 18:44+0200\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
@@ -51,8 +51,6 @@ msgstr "masse"
 #: data/campaigns/Delfadors_Memoirs/units/Mage_Magister.cfg:23
 #: data/campaigns/Descent_Into_Darkness/units/Frontier_Baroness.cfg:64
 #: data/campaigns/Secrets_of_the_Ancients/units/Orcish_Shaman.cfg:27
-#: data/campaigns/Son_Of_The_Black_Eye/units/Novice_Orcish_Shaman.cfg:26
-#: data/campaigns/Son_Of_The_Black_Eye/units/Old_Orcish_Shaman.cfg:26
 #: data/campaigns/Son_Of_The_Black_Eye/units/Orcish_Shaman.cfg:26
 #: data/campaigns/The_Rise_Of_Wesnoth/units/Wesfolk_Lady.cfg:64
 #: data/campaigns/The_Rise_Of_Wesnoth/units/Wesfolk_Leader.cfg:65
@@ -103,7 +101,7 @@ msgstr "épée courte"
 #: data/campaigns/Under_the_Burning_Suns/units/undead/Spider_Lich.cfg:35
 #: data/core/units/undead/Necro_Dark_Adept.cfg:29
 #: data/core/units/undead/Necro_Dark_Sorcerer.cfg:57
-#: data/core/units/undead/Necromancer.cfg:38
+#: data/core/units/undead/Necromancer.cfg:41
 msgid "chill wave"
 msgstr "onde glaciale"
 
@@ -118,8 +116,8 @@ msgstr "onde glaciale"
 #: data/core/units/undead/Necro_Ancient_Lich.cfg:53
 #: data/core/units/undead/Necro_Dark_Adept.cfg:41
 #: data/core/units/undead/Necro_Dark_Sorcerer.cfg:69
-#: data/core/units/undead/Necro_Lich.cfg:59
-#: data/core/units/undead/Necromancer.cfg:50
+#: data/core/units/undead/Necro_Lich.cfg:56
+#: data/core/units/undead/Necromancer.cfg:53
 msgid "shadow wave"
 msgstr "onde obscure"
 
@@ -203,7 +201,7 @@ msgstr "fléau d'armes"
 #: data/core/units/elves/Scout.cfg:32 data/core/units/elves/Sharpshooter.cfg:24
 #: data/core/units/humans/Horse_Knight.cfg:23
 #: data/core/units/humans/Horse_Paladin.cfg:39
-#: data/core/units/humans/Loyalist_Cavalryman.cfg:59
+#: data/core/units/humans/Loyalist_Cavalryman.cfg:58
 #: data/core/units/humans/Loyalist_Dragoon.cfg:35
 #: data/core/units/humans/Loyalist_Lieutenant.cfg:27
 #: data/core/units/humans/Loyalist_Longbowman.cfg:25
@@ -234,7 +232,7 @@ msgstr "épée"
 #: data/core/units/dunefolk/Marauder.cfg:70
 #: data/core/units/dunefolk/Raider.cfg:68 data/core/units/elves/Archer.cfg:32
 #: data/core/units/elves/Avenger.cfg:48 data/core/units/elves/Captain.cfg:43
-#: data/core/units/elves/Champion.cfg:32 data/core/units/elves/Fighter.cfg:31
+#: data/core/units/elves/Champion.cfg:33 data/core/units/elves/Fighter.cfg:31
 #: data/core/units/elves/Hero.cfg:31 data/core/units/elves/Marshal.cfg:48
 #: data/core/units/elves/Outrider.cfg:54 data/core/units/elves/Ranger.cfg:47
 #: data/core/units/elves/Rider.cfg:41 data/core/units/elves/Scout.cfg:41
@@ -267,10 +265,10 @@ msgstr "arc"
 #: data/core/units/gryphons/Gryphon_Rider.cfg:27
 #: data/core/units/monsters/Bear.cfg:51
 #: data/core/units/monsters/Elder_Falcon.cfg:41
-#: data/core/units/monsters/Falcon.cfg:84
+#: data/core/units/monsters/Falcon.cfg:86
 #: data/core/units/monsters/Icemonax.cfg:53
 #: data/core/units/monsters/Icemonax_Greater.cfg:54
-#: data/core/units/monsters/Jinn.cfg:90 data/core/units/monsters/Roc.cfg:37
+#: data/core/units/monsters/Jinn.cfg:91 data/core/units/monsters/Roc.cfg:37
 #: data/core/units/monsters/Skeletal_Dragon.cfg:43
 #: data/core/units/undead/Corpse_Ghoul.cfg:32
 #: data/core/units/undead/Corpse_Necrophage.cfg:26
@@ -374,13 +372,13 @@ msgstr ""
 #: data/campaigns/Secrets_of_the_Ancients/units/SotA_Soulless.cfg:190
 #: data/campaigns/Secrets_of_the_Ancients/units/SotA_Soulless.cfg:204
 #: data/campaigns/Secrets_of_the_Ancients/units/SotA_Soulless.cfg:233
-#: data/campaigns/Under_the_Burning_Suns/units/quenoth/Sun_Singer.cfg:28
-#: data/campaigns/Under_the_Burning_Suns/units/quenoth/Sun_Sylph.cfg:29
+#: data/campaigns/Under_the_Burning_Suns/units/quenoth/Sun_Singer.cfg:27
+#: data/campaigns/Under_the_Burning_Suns/units/quenoth/Sun_Sylph.cfg:28
 #: data/campaigns/Under_the_Burning_Suns/units/undead/Spider_Lich.cfg:23
 #: data/core/units/undead/Corpse_Soulless.cfg:117
 #: data/core/units/undead/Corpse_Walking.cfg:118
 #: data/core/units/undead/Necro_Ancient_Lich.cfg:29
-#: data/core/units/undead/Necro_Lich.cfg:35
+#: data/core/units/undead/Necro_Lich.cfg:32
 #: data/core/units/undead/Spirit_Ghost.cfg:57
 msgid "touch"
 msgstr "toucher"
@@ -406,7 +404,7 @@ msgstr "Ancienne liche"
 #: data/campaigns/Secrets_of_the_Ancients/units/Necro_Ancient_Lich.cfg:44
 #: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Rune_Lord.cfg:89
 #: data/core/units/undead/Necro_Ancient_Lich.cfg:41
-#: data/core/units/undead/Necro_Lich.cfg:47
+#: data/core/units/undead/Necro_Lich.cfg:44
 msgid "chill tempest"
 msgstr "tempête glaciale"
 
@@ -420,15 +418,13 @@ msgstr "Nécromancien"
 # C'est le niveau de puissance le plus élevé qu'un mage noir peut atteindre sans lâcher prise avec l'humanité, mais c'est bien peu de chose à côté du pouvoir mortel des liches. Leur corps de mortels sont aussi rendus plus résistants par leur magie, par opposition à ceux décomposés et fragiles des liches.
 #. [attack]: type=impact
 #: data/campaigns/Secrets_of_the_Ancients/units/Necromancer.cfg:11
-#: data/core/units/undead/Necromancer.cfg:26
+#: data/core/units/undead/Necromancer.cfg:29
 msgid "plague staff"
 msgstr "bâton de peste"
 
 #. [attack]: type=pierce
 #. [attack]: type=cold
 #: data/campaigns/Secrets_of_the_Ancients/units/Orcish_Shaman.cfg:36
-#: data/campaigns/Son_Of_The_Black_Eye/units/Novice_Orcish_Shaman.cfg:35
-#: data/campaigns/Son_Of_The_Black_Eye/units/Old_Orcish_Shaman.cfg:35
 #: data/campaigns/Son_Of_The_Black_Eye/units/Orcish_Shaman.cfg:35
 #: data/campaigns/The_Rise_Of_Wesnoth/units/Vampire_Lady.cfg:36
 #: data/core/units/saurians/Augur.cfg:33 data/core/units/saurians/Oracle.cfg:45
@@ -461,9 +457,9 @@ msgstr "malédiction"
 #: data/core/units/monsters/Ant_Firebane.cfg:70
 #: data/core/units/monsters/Ant_Firebomb.cfg:72
 #: data/core/units/monsters/Ant_Soldier.cfg:38
-#: data/core/units/monsters/Bear.cfg:42 data/core/units/monsters/Caribe.cfg:112
-#: data/core/units/monsters/Caribe_Hunter.cfg:113
-#: data/core/units/monsters/Caribe_Nibbler.cfg:127
+#: data/core/units/monsters/Bear.cfg:42 data/core/units/monsters/Caribe.cfg:114
+#: data/core/units/monsters/Caribe_Hunter.cfg:115
+#: data/core/units/monsters/Caribe_Nibbler.cfg:129
 #: data/core/units/monsters/Giant_Spider.cfg:28
 #: data/core/units/monsters/Sea_Serpent.cfg:27
 #: data/core/units/monsters/Water_Serpent.cfg:42
@@ -496,10 +492,10 @@ msgstr "crocs"
 #: data/core/units/monsters/Icemonax_Greater.cfg:63
 #: data/core/units/monsters/Scarab.cfg:44
 #: data/core/units/monsters/Seahorse.cfg:34
-#: data/core/units/monsters/Wild_Wyvern.cfg:95
+#: data/core/units/monsters/Wild_Wyvern.cfg:97
 #: data/core/units/undead/Corpse_Ghast.cfg:27
-#: data/core/units/undead/Corpse_Soulless.cfg:277
-#: data/core/units/undead/Corpse_Walking.cfg:278
+#: data/core/units/undead/Corpse_Soulless.cfg:278
+#: data/core/units/undead/Corpse_Walking.cfg:279
 msgid "bite"
 msgstr "morsure"
 
@@ -1404,7 +1400,7 @@ msgstr ""
 #. [attack]: type=impact
 #: data/core/units/drakes/Glider.cfg:29 data/core/units/drakes/Hurricane.cfg:51
 #: data/core/units/drakes/Sky.cfg:50
-#: data/core/units/monsters/Wild_Wyvern.cfg:86
+#: data/core/units/monsters/Wild_Wyvern.cfg:88
 msgid "slam"
 msgstr "piqué"
 
@@ -3140,7 +3136,7 @@ msgstr ""
 #. [attack]: type=impact
 #: data/core/units/elves/Enchantress.cfg:36 data/core/units/elves/Shaman.cfg:42
 #: data/core/units/elves/Sorceress.cfg:36
-#: data/core/units/monsters/Caribe_Hunter.cfg:122
+#: data/core/units/monsters/Caribe_Hunter.cfg:124
 #: data/core/units/wose/Wose_Shaman.cfg:43
 msgid "entangle"
 msgstr "enchevêtrement"
@@ -5584,10 +5580,8 @@ msgstr ""
 
 #. [unit_type]: id=Merman Brawler, race=merman
 #: data/core/units/merfolk/Brawler.cfg:4
-#, fuzzy
-#| msgid "Merman Entangler"
 msgid "Merman Brawler"
-msgstr "Rétiaire ondin"
+msgstr "Bagarreur ondin"
 
 #. [unit_type]: id=Merman Brawler, race=merman
 #: data/core/units/merfolk/Brawler.cfg:17
@@ -5595,6 +5589,8 @@ msgid ""
 "Exceptionally large and strong mermen are sometimes more comfortable with "
 "their own fists and tails than with other weapons."
 msgstr ""
+"Des ondins exceptionnellement grands et forts sont parfois plus à l'aise "
+"avec leurs propres poings et queue qu'avec d'autres armes."
 
 #. [attack]: type=impact
 #: data/core/units/merfolk/Brawler.cfg:30
@@ -5605,10 +5601,8 @@ msgstr "queue"
 
 #. [unit_type]: id=Merman Citizen, race=merman
 #: data/core/units/merfolk/Citizen.cfg:4
-#, fuzzy
-#| msgid "Merman Triton"
 msgid "Merman Citizen"
-msgstr "Triton"
+msgstr "Citoyen ondin"
 
 #. [unit_type]: id=Merman Citizen, race=merman
 #: data/core/units/merfolk/Citizen.cfg:17
@@ -5616,6 +5610,9 @@ msgid ""
 "Merfolk are mostly peaceful, but will fight to defend their homes. In this "
 "situation, even merfolk with no weapons or training can be dangerous."
 msgstr ""
+"Les ondins sont habituellement pacifiques, mais se battront pour défendre "
+"leur territoire. Dans cette situation, même des ondins désarmés ou non "
+"entraînés peuvent être dangereux."
 
 #. [unit_type]: id=Mermaid Diviner, race=merman
 #: data/core/units/merfolk/Diviner.cfg:4
@@ -6022,10 +6019,8 @@ msgstr ""
 msgid "Soldier Ant"
 msgstr "Fourmi soldat"
 
-# À compléter
 #. [unit_type]: id=Soldier Ant, race=monster
 #: data/core/units/monsters/Ant_Soldier.cfg:19
-#, fuzzy
 msgid ""
 "Giant Ants are common in almost any environment, from caverns deep under the "
 "earth to the tops of tall mountains. Most common are the nondescript workers "
@@ -6033,7 +6028,9 @@ msgid ""
 "the fray."
 msgstr ""
 "Les fourmis géantes sont présentes un peu partout, dans les grottes des "
-"profondeurs de la terre comme au sommet des grandes montagnes. [...]"
+"profondeurs de la terre comme au sommet des grandes montagnes. On trouvera "
+"couramment des fourmis ouvrières et éclaireuses, mais, en cas de conflit, "
+"les fourmis soldats interviennent."
 
 #. [unit_type]: id=Cave Bear, race=monster
 #: data/core/units/monsters/Bear.cfg:4
@@ -6074,8 +6071,8 @@ msgstr ""
 #. [attack]: type=pierce
 #. [variation]
 #: data/core/units/monsters/Boar.cfg:59
-#: data/core/units/undead/Corpse_Soulless.cfg:382
-#: data/core/units/undead/Corpse_Walking.cfg:383
+#: data/core/units/undead/Corpse_Soulless.cfg:383
+#: data/core/units/undead/Corpse_Walking.cfg:384
 msgid "tusk"
 msgstr "défenses"
 
@@ -6323,7 +6320,7 @@ msgstr ""
 #. [attack]: type=blade
 #. [attack]: type=pierce
 #: data/core/units/monsters/Elder_Falcon.cfg:50
-#: data/core/units/monsters/Falcon.cfg:93 data/core/units/monsters/Roc.cfg:29
+#: data/core/units/monsters/Falcon.cfg:95 data/core/units/monsters/Roc.cfg:29
 msgid "beak"
 msgstr "bec"
 
@@ -6401,11 +6398,13 @@ msgstr "griffes de feu"
 
 #. [unit_type]: id=Fire Wraith, race=monster
 #: data/core/units/monsters/Fire_Wraith.cfg:8
+#, fuzzy
 msgid "Fire Wraith"
 msgstr "souffle ardent"
 
 #. [unit_type]: id=Fire Wraith, race=monster
 #: data/core/units/monsters/Fire_Wraith.cfg:47
+#, fuzzy
 msgid ""
 "Fire Wraiths are spirits of smoke and flame. No one is exactly sure where "
 "they come from, but they are occasionally summoned by powerful mages to do "
@@ -6798,12 +6797,12 @@ msgstr ""
 
 # les Djinns utilisent cette attaque
 #. [attack]: type=impact
-#: data/core/units/monsters/Jinn.cfg:99
+#: data/core/units/monsters/Jinn.cfg:100
 msgid "desert windblast"
 msgstr "bourrasque du désert"
 
 #. [attack]: type=fire
-#: data/core/units/monsters/Jinn.cfg:108
+#: data/core/units/monsters/Jinn.cfg:109
 msgid "desert lightning"
 msgstr "foudre du désert"
 
@@ -7082,7 +7081,7 @@ msgid "Wild Wyvern"
 msgstr "Vouivre sauvage"
 
 #. [unit_type]: id=Wild Wyvern, race=monster
-#: data/core/units/monsters/Wild_Wyvern.cfg:44
+#: data/core/units/monsters/Wild_Wyvern.cfg:45
 msgid ""
 "Wyverns are large reptiles that resemble dragons, but are not the "
 "intelligent, magical creatures. However, the fact that they are just wild "
@@ -8037,6 +8036,11 @@ msgid ""
 "javelineers. With better equipment and exceptional aim, saurian javelineers "
 "are not to be underestimated."
 msgstr ""
+"Après des années d'entraînement au combat, les guerrières sauriennes les "
+"plus douées au maniement du javelot peuvent accéder aux rangs des "
+"javelinistes. Dotées d'un meilleur équipement et d'une adresse "
+"exceptionnelle, les javelinistes sauriennes ne doivent pas être sous-"
+"estimées."
 
 #. [unit_type]: id=Saurian Oracle, race=lizard
 #: data/core/units/saurians/Oracle.cfg:4
@@ -8115,6 +8119,10 @@ msgid ""
 "the backlines rather than to infiltrate enemy formations. Their deadly spear "
 "throwing skills allow them to support other saurian warriors from afar."
 msgstr ""
+"Certaines sauriennes au lancer particulièrement précis préfèrent aider leurs "
+"alliés depuis l'arrière-garde plutôt que de pénétrer les formations "
+"ennemies. Leur talent meurtrier pour le javelot leur permet de soutenir "
+"d'autres guerriers sauriens à distance."
 
 #. [unit_type]: id=Great Troll, race=troll
 #: data/core/units/trolls/Great.cfg:4
@@ -8358,104 +8366,104 @@ msgid "wc_variation^Falcon"
 msgstr "Faucon"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:205
-#: data/core/units/undead/Corpse_Walking.cfg:206
+#: data/core/units/undead/Corpse_Soulless.cfg:206
+#: data/core/units/undead/Corpse_Walking.cfg:207
 msgid "wc_variation^Goblin"
 msgstr "Goblin"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:215
-#: data/core/units/undead/Corpse_Walking.cfg:239
+#: data/core/units/undead/Corpse_Soulless.cfg:216
+#: data/core/units/undead/Corpse_Walking.cfg:240
 msgid "wc_variation^Horse"
 msgstr "Cheval"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:224
-#: data/core/units/undead/Corpse_Walking.cfg:248
+#: data/core/units/undead/Corpse_Soulless.cfg:225
+#: data/core/units/undead/Corpse_Walking.cfg:249
 msgid "wc_variation^Mounted"
 msgstr "À cheval"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:233
-#: data/core/units/undead/Corpse_Walking.cfg:257
+#: data/core/units/undead/Corpse_Soulless.cfg:234
+#: data/core/units/undead/Corpse_Walking.cfg:258
 msgid "wc_variation^Beast-Rider"
 msgstr "Monteur de bêtes"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:242
-#: data/core/units/undead/Corpse_Walking.cfg:216
+#: data/core/units/undead/Corpse_Soulless.cfg:243
+#: data/core/units/undead/Corpse_Walking.cfg:217
 msgid "wc_variation^Gryphon"
 msgstr "Griffon"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:265
-#: data/core/units/undead/Corpse_Walking.cfg:266
+#: data/core/units/undead/Corpse_Soulless.cfg:266
+#: data/core/units/undead/Corpse_Walking.cfg:267
 msgid "wc_variation^Rat"
 msgstr "Rat"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:282
-#: data/core/units/undead/Corpse_Walking.cfg:283
+#: data/core/units/undead/Corpse_Soulless.cfg:283
+#: data/core/units/undead/Corpse_Walking.cfg:284
 msgid "wc_variation^Saurian"
 msgstr "Saurien"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:292
-#: data/core/units/undead/Corpse_Walking.cfg:293
+#: data/core/units/undead/Corpse_Soulless.cfg:293
+#: data/core/units/undead/Corpse_Walking.cfg:294
 msgid "wc_variation^Scorpion"
 msgstr "Scorpion"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:310
-#: data/core/units/undead/Corpse_Walking.cfg:311
+#: data/core/units/undead/Corpse_Soulless.cfg:311
+#: data/core/units/undead/Corpse_Walking.cfg:312
 msgid "wc_variation^Scuttler"
 msgstr "Scorpion des dunes"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:319
-#: data/core/units/undead/Corpse_Walking.cfg:320
+#: data/core/units/undead/Corpse_Soulless.cfg:320
+#: data/core/units/undead/Corpse_Walking.cfg:321
 msgid "wc_variation^Spider"
 msgstr "Araignée"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:328
-#: data/core/units/undead/Corpse_Walking.cfg:329
+#: data/core/units/undead/Corpse_Soulless.cfg:329
+#: data/core/units/undead/Corpse_Walking.cfg:330
 msgid "wc_variation^Serpent"
 msgstr "Serpent"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:347
-#: data/core/units/undead/Corpse_Walking.cfg:348
+#: data/core/units/undead/Corpse_Soulless.cfg:348
+#: data/core/units/undead/Corpse_Walking.cfg:349
 msgid "wc_variation^Swimmer"
 msgstr "Nageur"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:365
-#: data/core/units/undead/Corpse_Walking.cfg:366
+#: data/core/units/undead/Corpse_Soulless.cfg:366
+#: data/core/units/undead/Corpse_Walking.cfg:367
 msgid "wc_variation^Troll"
 msgstr "Troll"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:374
-#: data/core/units/undead/Corpse_Walking.cfg:375
+#: data/core/units/undead/Corpse_Soulless.cfg:375
+#: data/core/units/undead/Corpse_Walking.cfg:376
 msgid "wc_variation^Boar"
 msgstr "Sanglier"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:387
-#: data/core/units/undead/Corpse_Walking.cfg:388
+#: data/core/units/undead/Corpse_Soulless.cfg:388
+#: data/core/units/undead/Corpse_Walking.cfg:389
 msgid "wc_variation^Wose"
 msgstr "Wose"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:399
-#: data/core/units/undead/Corpse_Walking.cfg:400
+#: data/core/units/undead/Corpse_Soulless.cfg:400
+#: data/core/units/undead/Corpse_Walking.cfg:401
 msgid "wc_variation^Wolf"
 msgstr "Loup"
 
 #. [variation]
-#: data/core/units/undead/Corpse_Soulless.cfg:412
-#: data/core/units/undead/Corpse_Walking.cfg:413
+#: data/core/units/undead/Corpse_Soulless.cfg:413
+#: data/core/units/undead/Corpse_Walking.cfg:414
 msgid "wc_variation^Bat"
 msgstr "Chauve-souris"
 
@@ -8599,7 +8607,7 @@ msgid "Lich"
 msgstr "Liche"
 
 #. [unit_type]: id=Lich, race=undead
-#: data/core/units/undead/Necro_Lich.cfg:22
+#: data/core/units/undead/Necro_Lich.cfg:19
 msgid ""
 "A lich is the physical embodiment of black magic’s first goal: the quest to "
 "achieve immortality. Though a great deal is sacrificed in the rebirth, in "
@@ -8622,7 +8630,7 @@ msgstr ""
 "prouve déjà le niveau des résultats obtenus."
 
 #. [unit_type]: id=Necromancer, race=human
-#: data/core/units/undead/Necromancer.cfg:19
+#: data/core/units/undead/Necromancer.cfg:22
 msgid ""
 "One of the pinnacles of what is considered ‘black magic’ is the art of "
 "necromancy, the terrible ability to awaken the dead with false life. This "
@@ -8642,7 +8650,7 @@ msgstr ""
 "pour vaincre la mort."
 
 #. [female]
-#: data/core/units/undead/Necromancer.cfg:149
+#: data/core/units/undead/Necromancer.cfg:152
 msgid "female^Necromancer"
 msgstr "Nécromancienne"
 
@@ -8679,6 +8687,9 @@ msgid ""
 "skeletal horses were raised from the ground by unholy magic to spread fear "
 "and destruction."
 msgstr ""
+"Jadis de grands guerriers sillonnant les plaines, ces cavaliers montés sur "
+"le squelette de leur cheval sont sortis de la tombe par une magie impie pour "
+"semer la peur et la destruction."
 
 #. [attack]: type=impact
 #: data/core/units/undead/Skele_Bone_Knight.cfg:44
@@ -8756,6 +8767,12 @@ msgid ""
 "pick up a good deal of the Knight’s power, including the ability to command "
 "underlings."
 msgstr ""
+"Parfois, les guerriers et les généraux les plus puissants, maudits par la "
+"haine et l'angoisse, reviennent dans ce monde sous la forme de chevaliers de "
+"la mort. Les écuyers de la mort les servent tout en acquérant des pouvoirs "
+"maléfiques pour devenir des chevaliers de la mort. Ainsi, ils apprennent à "
+"maîtriser une bonne partie des compétences des chevaliers, y compris la "
+"capacité de commander leurs subordonnés."
 
 #. [unit_type]: id=Deathblade, race=undead
 #: data/core/units/undead/Skele_Deathblade.cfg:4
@@ -8871,6 +8888,9 @@ msgid ""
 "their skeletal horses were raised from the grave by unholy magic to spread "
 "fear and destruction."
 msgstr ""
+"Jadis de grands guerriers sillonnant les plaines, ces cavaliers montés sur "
+"leurs chevaux squelettiques sont sortis de leur tombe par une magie impie "
+"pour semer la peur et la destruction."
 
 #. [unit_type]: id=Ghost, race=undead
 #: data/core/units/undead/Spirit_Ghost.cfg:4

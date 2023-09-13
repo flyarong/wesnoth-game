@@ -1,5 +1,5 @@
 /*
-	Copyright (C) 2009 - 2022
+	Copyright (C) 2009 - 2023
 	by Yurii Chernyi <terraninfo@terraninfo.net>
 	Part of the Battle for Wesnoth Project https://www.wesnoth.org/
 
@@ -92,6 +92,7 @@ public:
 	void clear_data()
 	{
 		data.clear();
+		pages.clear();
 	}
 
 	void set_data(const std::string& new_data)

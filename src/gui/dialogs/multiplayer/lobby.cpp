@@ -1,5 +1,5 @@
 /*
-	Copyright (C) 2009 - 2022
+	Copyright (C) 2009 - 2023
 	by Tomasz Sniatowski <kailoran@gmail.com>
 	Part of the Battle for Wesnoth Project https://www.wesnoth.org/
 
@@ -687,7 +687,7 @@ void mp_lobby::pre_show(window& window)
 
 void mp_lobby::tab_switch_callback()
 {
-	filter_auto_hosted_ = !filter_auto_hosted_;
+	filter_auto_hosted_ = find_widget<listbox>(get_window(), "games_list_tab_bar", false).get_selected_row() == 1;
 	update_gamelist_filter();
 }
 

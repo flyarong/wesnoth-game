@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-04-15 19:58-0500\n"
-"PO-Revision-Date: 2023-03-26 08:06+0200\n"
+"POT-Creation-Date: 2023-08-19 20:56-0500\n"
+"PO-Revision-Date: 2023-09-07 18:04+0200\n"
 "Last-Translator: Michal Žejdl <lachim@emer.cz>\n"
 "Language-Team: Czech https://wiki.wesnoth.org/CzechTranslation\n"
 "Language: cs\n"
@@ -115,47 +115,71 @@ msgstr "Tento útok užívá 5 útoků"
 msgid "This attack uses 6 attacks"
 msgstr "Tento útok užívá 6 útoků"
 
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:252
-msgid "This attack can only be used as the first verse of the song."
-msgstr "Tento útok lze použít pouze jako první verš písně."
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:77
+msgid ""
+"This attack is the first verse of the Song of Sun Ascension, which "
+"progresses by one verse each turn this unit uses a song verse attack. When "
+"the last verse is sung or the song sequence is broken due to not attacking "
+"for a turn, the song starts again from the first verse."
+msgstr ""
+"Tento útok je první slokou Písně východu slunce, která postupuje o jednu "
+"sloku každé kolo, kdy tato jednotka použije útok slokou písně. Jakmile je "
+"zazpíván poslední verš nebo je sled písně přerušen z důvodu, že se v daném "
+"kole neútočilo, začíná píseň znovu od první sloky."
 
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:255
-msgid "This attack can only be used as the second verse of the song."
-msgstr "Tento útok lze použít pouze jako druhý verš písně."
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:80
+msgid ""
+"This attack is the second verse of the Song of Sun Ascension, which "
+"progresses by one verse each turn this unit uses a song verse attack. When "
+"the last verse is sung or the song sequence is broken due to not attacking "
+"for a turn, the song starts again from the first verse."
+msgstr ""
+"Tento útok je druhou slokou Písně východu slunce, která postupuje o jednu "
+"sloku každé kolo, kdy tato jednotka použije útok slokou písně. Jakmile je "
+"zazpíván poslední verš nebo je sled písně přerušen z důvodu, že se v daném "
+"kole neútočilo, začíná píseň znovu od první sloky."
 
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:258
-msgid "This attack can only be used as the third verse of the song."
-msgstr "Tento útok lze použít pouze jako třetí verš písně."
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:83
+msgid ""
+"This attack is the third verse of the Song of Sun Ascension, which "
+"progresses by one verse each turn this unit uses a song verse attack. When "
+"the last verse is sung or the song sequence is broken due to not attacking "
+"for a turn, the song starts again from the first verse."
+msgstr ""
+"Tento útok je třetí slokou Písně východu slunce, která postupuje o jednu "
+"sloku každé kolo, kdy tato jednotka použije útok slokou písně. Jakmile je "
+"zazpíván poslední verš nebo je sled písně přerušen z důvodu, že se v daném "
+"kole neútočilo, začíná píseň znovu od první sloky."
 
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:261
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:86
 msgid "first verse"
 msgstr "první verš"
 
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:264
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:89
 msgid "second verse"
 msgstr "druhý verš"
 
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:267
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:92
 msgid "third verse"
 msgstr "třetí verš"
 
 #. [disable]: id=once_per_turn
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:279
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:324
 msgid "once per turn"
 msgstr "jednou za kolo"
 
 #. [disable]: id=once_per_turn
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:280
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:325
 msgid "This attack can be used offensively only once per turn"
 msgstr "Tento útok lze použít ofenzivně pouze jednou za kolo"
 
 #. [dummy]: id=nova
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:358
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:403
 msgid "nova"
 msgstr "nova"
 
 #. [dummy]: id=nova
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:359
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:404
 msgid ""
 "This weapon, when used offensively, deals damage to all units adjacent to "
 "the caster when it hits."
@@ -164,55 +188,55 @@ msgstr ""
 "jednotkám, které sousedí se sesilatelem."
 
 #. [dummy]: id=nova
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:360
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:405
 msgid "This unit has wide-area attacks centered on the caster."
 msgstr ""
 "Tato jednotka má útoky s větším dosahem, které mají ohnisko u sesilatele."
 
 #. [dummy]: id=ray
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:395
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:440
 msgid "ray"
 msgstr "paprsek"
 
 #. [dummy]: id=ray
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:396
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:441
 msgid ""
 "This weapon, when used offensively, also deals damage to a unit behind the "
 "target."
 msgstr ""
 "Pokud je tato zbraň užita ofenzivně, způsobuje zranění i jednotce za cílem."
 
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:520
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:565
 msgid ""
 "At the start of the turn this unit increases movement points of surrounding "
 "units by +1"
 msgstr "Na začátku kola tato jednotka zvýší počet kroků okolních jednotek o +1"
 
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:523
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:568
 msgid ""
 "At the start of the turn this unit increases movement points of surrounding "
 "units by +2"
 msgstr "Na začátku kola tato jednotka zvýší počet kroků okolních jednotek o +2"
 
 #. [dummy]: description={STR_TAILWIND_RESTRICT_{X}}
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:527
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:572
 msgid "tailwind +"
 msgstr "vítr v zádech +"
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:545
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:590
 #: data/core/macros/abilities.cfg:9
 msgid "heals +4"
 msgstr "léčí +4"
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:546
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:591
 #: data/core/macros/abilities.cfg:10
 msgid "female^heals +4"
 msgstr "léčí +4"
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:547
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:592
 msgid ""
 "Allows the unit to heal adjacent allied units at the beginning of our turn.\n"
 "\n"
@@ -231,27 +255,27 @@ msgstr ""
 
 #. [heals]: id=healing
 #. [heals]
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:551
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:590
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:620
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:596
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:635
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:665
 msgid "This unit is capable of basic healing and slowing dehydration."
 msgstr ""
 "Tato jednotka dokáže poskytnout základní léčení a zpomalit dehydrataci."
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:569
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:614
 #: data/core/macros/abilities.cfg:35
 msgid "heals +8"
 msgstr "léčí +8"
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:570
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:615
 #: data/core/macros/abilities.cfg:36
 msgid "female^heals +8"
 msgstr "léčí +8"
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:571
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:616
 msgid ""
 "This unit combines herbal remedies with magic to heal units more quickly "
 "than is normally possible on the battlefield.\n"
@@ -270,17 +294,17 @@ msgstr ""
 "pomoc ve vesnici nebo u jednotky, která dokáže uzdravovat."
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:599
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:644
 msgid "heals +12"
 msgstr "léčí +12"
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:600
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:645
 msgid "female^heals +12"
 msgstr "léčí +12"
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:601
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:646
 msgid ""
 "This unit combines herbal remedies with magic to heal units more quickly "
 "than is normally possible on the battlefield.\n"
@@ -299,7 +323,7 @@ msgstr ""
 "pomoc ve vesnici nebo u jednotky, která dokáže uzdravovat."
 
 #. [heals]
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:626
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:671
 msgid ""
 "This unit is capable of healing those around it, slowing dehydration, and "
 "curing them of poison."
@@ -449,13 +473,13 @@ msgstr "Editor map a scénářů"
 
 #. [section]: id=editor_mode_terrain
 #. [topic]: id=..editor_mode_terrain
-#: data/core/editor/help.cfg:13 data/core/editor/help.cfg:349
+#: data/core/editor/help.cfg:13 data/core/editor/help.cfg:372
 msgid "Terrain Editor"
 msgstr "Editor terénu"
 
 #. [section]: id=editor_mode_scenario
 #. [topic]: id=..editor_mode_scenario
-#: data/core/editor/help.cfg:20 data/core/editor/help.cfg:361
+#: data/core/editor/help.cfg:20 data/core/editor/help.cfg:384
 msgid "Scenario Editor"
 msgstr "Editor scénáře"
 
@@ -661,7 +685,8 @@ msgid "Starting Locations Tool"
 msgstr "Startovní pozice"
 
 #. [topic]: id=editor_tool_starting
-#: data/core/editor/help.cfg:109
+#. the parts about "10" being shown as "Player 10" use the translatable string "Player $side_num" in the wesnoth-editor textdomain
+#: data/core/editor/help.cfg:110
 msgid ""
 "Defines the side leader starting position.\n"
 "\n"
@@ -724,12 +749,12 @@ msgstr ""
 "v paletě editoru."
 
 #. [topic]: id=editor_terrain_overlays
-#: data/core/editor/help.cfg:127
+#: data/core/editor/help.cfg:128
 msgid "Editor Terrain-Overlay Graphics"
 msgstr "Překryvné obrázky pro terén v editoru"
 
 #. [topic]: id=editor_terrain_overlays
-#: data/core/editor/help.cfg:128
+#: data/core/editor/help.cfg:129
 msgid ""
 "editor^Maps generally look similar in the editor to their appearance in the "
 "game. There are a few exceptions, where different graphics are used in the "
@@ -743,7 +768,7 @@ msgstr ""
 #. [topic]: id=editor_terrain_overlays
 #. The images here have text, while they could be translated I assume editor-only images won’t be.
 #. In English the text is “IO” for impassable and “UO” for unwalkable.
-#: data/core/editor/help.cfg:133
+#: data/core/editor/help.cfg:134
 msgid ""
 "editor^<bold>text='Movement Overlays'</bold>\n"
 "\n"
@@ -772,7 +797,7 @@ msgstr ""
 #. [topic]: id=editor_terrain_overlays
 #. The images here have text, while they could be translated I assume editor-only images won’t be.
 #. In English these images are the literal text “Castle overlay” and “Keep overlay”.
-#: data/core/editor/help.cfg:142
+#: data/core/editor/help.cfg:143
 msgid ""
 "editor^<bold>text='Castle Overlays'</bold>\n"
 "\n"
@@ -809,7 +834,7 @@ msgstr ""
 #. [topic]: id=editor_terrain_overlays
 #. The image here has text, while it could be translated I assume editor-only images won’t be.
 #. In English this image is the literal text “Village overlay”.
-#: data/core/editor/help.cfg:153
+#: data/core/editor/help.cfg:154
 msgid ""
 "editor^<bold>text='Village Overlay'</bold>\n"
 "\n"
@@ -828,7 +853,7 @@ msgstr ""
 
 #. [topic]: id=editor_terrain_overlays
 #. The image is an “S” on a solid black background.
-#: data/core/editor/help.cfg:161
+#: data/core/editor/help.cfg:162
 msgid ""
 "editor^<bold>text='Fake Shroud'</bold>\n"
 "\n"
@@ -846,12 +871,12 @@ msgstr ""
 "takové políčko vidí."
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:170
+#: data/core/editor/help.cfg:171
 msgid "Terrain Elevation Graphics"
 msgstr "Grafika pro vyvýšený terén"
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:171
+#: data/core/editor/help.cfg:172
 msgid ""
 "A cosmetic elevation effect that looks a little different in the editor than "
 "in the game due to visual aids in the editor; all the overlays described "
@@ -862,12 +887,12 @@ msgstr ""
 "v paletě terénů pod skupinou „vyvýšení“."
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:174
+#: data/core/editor/help.cfg:175
 msgid "editor^<bold>text='Direct Overlays'</bold>"
 msgstr "<bold>text='Přímé překryvy'</bold>"
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:176
+#: data/core/editor/help.cfg:177
 msgid ""
 "Bluffs and Gulch\n"
 "\n"
@@ -884,17 +909,17 @@ msgstr ""
 "překryvy spojovat se „značkami“ popsanými v následujícím oddílu."
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:181
+#: data/core/editor/help.cfg:182
 msgid "editor^<bold>text='Elevation Floodfill'</bold>"
 msgstr "<bold>text='Vyplňování vyvýšením'</bold>"
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:183
+#: data/core/editor/help.cfg:184
 msgid "Raised elevation on-map marker"
 msgstr "Značka zvýšení na mapě"
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:184
+#: data/core/editor/help.cfg:185
 msgid ""
 "Raised elevation editor palette icon\n"
 "\n"
@@ -924,7 +949,7 @@ msgstr ""
 "zvýšené oblasti vedle snížené nevede ke vzniku větších srázů.\n"
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:191
+#: data/core/editor/help.cfg:192
 msgid ""
 "editor^<bold>text='How to Use'</bold>\n"
 "\n"
@@ -959,7 +984,7 @@ msgstr ""
 "Grafika použitá na okrajové hrany je určena základním terénem.\n"
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:202
+#: data/core/editor/help.cfg:203
 msgid ""
 "editor^<format>text='Note for UMC authors: The flood-filled tiles do not "
 "have their terrain codes changed, or any other properties affected, so "
@@ -971,14 +996,14 @@ msgstr ""
 "vyvýšení není jednoduché.' italic='yes' font_size=10 </format>"
 
 #. [topic]: id=editor_deprecated_overlay
-#: data/core/editor/help.cfg:207
+#: data/core/editor/help.cfg:208
 msgid "Deprecated Terrain"
 msgstr "Zastaralý terén"
 
 #. [topic]: id=editor_deprecated_overlay
 #. The main reason for choosing “D” is that the hole in the middle of the letter makes it easier to see which terrain is underneath it. This uses a hardcoded image and doesn’t expect the image to be translated.
 #. The Xol and ^Efs terrains’ help pages aren’t given hyperlinks, because they both have hide_help enabled. Even when on a map with Xol on it, ctrl+t will show the hidden page but the ref still won’t link to it.
-#: data/core/editor/help.cfg:210
+#: data/core/editor/help.cfg:211
 msgid ""
 "editor^<img>src='terrain/grass/green.png~BLIT(terrain/deprecated-editor."
 "png)' align=left box=yes</img>The magenta ‘D’ (for “Deprecated”).\n"
@@ -1004,12 +1029,12 @@ msgstr ""
 "zobrazuje pouze v editoru a který popisuje zastarání a doporučené náhrady."
 
 #. [topic]: id=editor_tool_label
-#: data/core/editor/help.cfg:223
+#: data/core/editor/help.cfg:224
 msgid "Label Tool"
 msgstr "Popisky"
 
 #. [topic]: id=editor_tool_label
-#: data/core/editor/help.cfg:224
+#: data/core/editor/help.cfg:225
 msgid ""
 "Put text labels on the map.\n"
 "\n"
@@ -1032,12 +1057,12 @@ msgstr ""
 "přízdoby zavedeny použitím WML značky <italic>text='[label]'</italic>."
 
 #. [topic]: id=editor_tool_scenery
-#: data/core/editor/help.cfg:239
+#: data/core/editor/help.cfg:240
 msgid "Item Tool (Scenery Tool)"
 msgstr "Předměty (dekorace)"
 
 #. [topic]: id=editor_tool_scenery
-#: data/core/editor/help.cfg:240
+#: data/core/editor/help.cfg:241
 msgid ""
 "The Item Tool allows placing decorations such as windmills, bookcases and "
 "monoliths. Multiple items can be placed on the same hex.\n"
@@ -1062,12 +1087,12 @@ msgstr ""
 "italic>."
 
 #. [topic]: id=editor_tool_village
-#: data/core/editor/help.cfg:253
+#: data/core/editor/help.cfg:254
 msgid "Village Ownership Tool"
 msgstr "Vlastnictví vesnice"
 
 #. [topic]: id=editor_tool_village
-#: data/core/editor/help.cfg:254
+#: data/core/editor/help.cfg:255
 msgid ""
 "This tool assigns ownership of villages at the start of a scenario. The "
 "villages must first be placed on the terrain with the "
@@ -1092,12 +1117,12 @@ msgstr ""
 "straně <italic>text='[side]'</italic>."
 
 #. [topic]: id=editor_tool_unit
-#: data/core/editor/help.cfg:268
+#: data/core/editor/help.cfg:269
 msgid "Unit Tool"
 msgstr "Jednotky"
 
 #. [topic]: id=editor_tool_unit
-#: data/core/editor/help.cfg:269
+#: data/core/editor/help.cfg:270
 msgid ""
 "Place units belonging to the currently-selected side.\n"
 "\n"
@@ -1122,12 +1147,12 @@ msgstr ""
 "<italic>text='[unit]'</italic>."
 
 #. [topic]: id=editor_named_area
-#: data/core/editor/help.cfg:284
+#: data/core/editor/help.cfg:285
 msgid "Named Areas"
 msgstr "Pojmenované oblasti"
 
 #. [topic]: id=editor_named_area
-#: data/core/editor/help.cfg:285
+#: data/core/editor/help.cfg:286
 msgid ""
 "This tool create sets of tiles that can be used in WML scripts’ Standard "
 "Location Filters (a concept explained in detail on the Wiki), by using the "
@@ -1176,12 +1201,12 @@ msgstr ""
 "třeba v té oblasti měnit rozvrh denní doby."
 
 #. [topic]: id=editor_playlist
-#: data/core/editor/help.cfg:306
+#: data/core/editor/help.cfg:307
 msgid "Playlist Manager"
 msgstr "Správce přehrávání hudby"
 
 #. [topic]: id=editor_playlist
-#: data/core/editor/help.cfg:307
+#: data/core/editor/help.cfg:308
 msgid ""
 "Shows a list of music tracks known to the editor, with toggle-boxes to "
 "enable them.\n"
@@ -1195,17 +1220,51 @@ msgstr ""
 "Tento nástroj je dostupný pouze v režimu scénáře. Přidá do scénáře WML "
 "značky <italic>text='[music]'</italic>."
 
+#. [topic]: id=editor_addon_id
+#: data/core/editor/help.cfg:319
+msgid "Change Add-on ID"
+msgstr "Změna ID rozšíření"
+
+#. [topic]: id=editor_addon_id
+#: data/core/editor/help.cfg:320
+msgid ""
+"Allows changing the ID of an add-on, which is the name of the folder it’s "
+"in. This will only rename that folder and update any references to it in the "
+"_main.cfg file. Any other place will need to be updated manually."
+msgstr ""
+"Umožňuje změnit ID rozšíření, což je název složky, ve které se nachází. "
+"Přejmenuje se pouze tato složka a obnoví se všechny odkazy na ni v souboru "
+"_main.cfg. Jakékoli jiné místo bude třeba aktualizovat ručně."
+
+#. [topic]: id=editor_pbl_editor
+#: data/core/editor/help.cfg:329
+msgid "Add-on Publishing Editor"
+msgstr "Editor pro zveřejnění rozšíření"
+
+#. [topic]: id=editor_pbl_editor
+#: data/core/editor/help.cfg:330
+msgid ""
+"Allows setting up an add-on’s _server.pbl file, which is required for "
+"publishing an add-on to the add-ons server for other players to download. "
+"The Validate button will check whether all required fields have valid values."
+msgstr ""
+"Umožňuje vytvořit pro rozšíření soubor _server.pbl, který je nutný pro "
+"zveřejnění rozšíření na serveru s rozšířeními, odkud si jej mohou stáhnout "
+"ostatní hráči. Tlačítko Ověřit zkontroluje, zda jsou ve všech požadovaných "
+"polích uvedeny platné hodnoty."
+
 #. [topic]: id=..editor
-#: data/core/editor/help.cfg:317
+#: data/core/editor/help.cfg:338
 msgid "Map/Scenario Editor"
 msgstr "Editor map/scénářů"
 
 #. [topic]: id=..editor
-#: data/core/editor/help.cfg:318
+#: data/core/editor/help.cfg:339
 msgid ""
 "Wesnoth’s Map and Scenario Editor allows users to create and edit the maps "
 "on which every Wesnoth scenario takes place. It also provides a limited set "
-"of features for setting up a basic scenario.\n"
+"of features for setting up a basic scenario as well as initializing an add-"
+"on which can be used to distribute the scenarios you create.\n"
 "\n"
 "The editor can be launched from the <italic>text='Map Editor'</italic> "
 "option at the title screen.\n"
@@ -1233,7 +1292,8 @@ msgid ""
 msgstr ""
 "Editor map a scénářů Wesnothu umožňuje uživatelům vytvářet a upravovat mapy, "
 "na kterých se odehrává každý scénář. Také poskytuje omezenou sadu prvků pro "
-"vytvoření základního scénáře.\n"
+"vytvoření základního scénáře, jakož i inicializaci rozšíření, které může být "
+"použito k distribuci tebou vytvořených scénářů.\n"
 "\n"
 "Editor může být spuštěn volbou <italic>text='Editor map'</italic> na úvodní "
 "obrazovce.\n"
@@ -1260,7 +1320,25 @@ msgstr ""
 "seznamu skladeb'</ref> pro hudbu."
 
 #. [topic]: id=..editor
-#: data/core/editor/help.cfg:330
+#: data/core/editor/help.cfg:351
+msgid ""
+"In either mode, you will be prompted to choose an add-on to use for the "
+"scenarios you create. This can be an existing add-on or a brand new add-on. "
+"If you choose to use a brand new add-on, then the add-on will have all the "
+"required files and folders automatically created as well as a default ID "
+"assigned. Unless you are editing an already existing map file, using "
+"scenario mode is required in order for your maps to be selectable during "
+"game creation."
+msgstr ""
+"V obou režimech budeš vyzván k výběru rozšíření, které použiješ pro scénáře, "
+"jež vytváříš. Může se jednat o existující rozšíření nebo rozšíření zcela "
+"nové. Pokud se rozhodneš použít zbrusu nové rozšíření, budou pro něj "
+"automaticky vytvořeny všechny požadované soubory a složky a bude mu "
+"přiřazeno výchozí ID. Pokud neupravuješ již existující soubor s mapou, je "
+"nutné použít režim scénáře, aby šlo během vytváření hry vybrat tvé mapy."
+
+#. [topic]: id=..editor
+#: data/core/editor/help.cfg:353
 msgid ""
 "<header>text='What you do *not* get'</header>\n"
 "\n"
@@ -1307,7 +1385,7 @@ msgstr ""
 "terénech věděl."
 
 #. [topic]: id=..editor_mode_terrain
-#: data/core/editor/help.cfg:350
+#: data/core/editor/help.cfg:373
 msgid ""
 "The terrain editor’s functionality is similar to a simple paint "
 "application.\n"
@@ -1332,7 +1410,7 @@ msgstr ""
 "hru“ pro hru více hráčů."
 
 #. [topic]: id=..editor_mode_scenario
-#: data/core/editor/help.cfg:362
+#: data/core/editor/help.cfg:385
 msgid ""
 "The scenario editor mode adds support for some map-related WML features, "
 "such as areas and scenery items. Most scenarios will still require "
@@ -1345,7 +1423,7 @@ msgstr ""
 "nepodporuje skriptování událostí."
 
 #. [topic]: id=..editor_mode_scenario
-#: data/core/editor/help.cfg:364
+#: data/core/editor/help.cfg:387
 msgid ""
 "<header>text='Checking whether the editor is in scenario mode'</header>\n"
 "\n"
@@ -1362,7 +1440,7 @@ msgstr ""
 "• V režimu pouze pro terén jsou menu „Oblasti“ a „Strana“ zašedlá."
 
 #. [topic]: id=..editor_mode_scenario
-#: data/core/editor/help.cfg:371
+#: data/core/editor/help.cfg:394
 msgid ""
 "<header>text='Entering scenario mode'</header>\n"
 "\n"
@@ -1387,151 +1465,109 @@ msgstr ""
 "mapu“ z menu „Soubor“ a vyber soubor .cfg (nikoli soubor .map)."
 
 #. [topic]: id=..editor_mode_scenario
-#: data/core/editor/help.cfg:379
+#: data/core/editor/help.cfg:402
 msgid ""
 "<header>text='The files: .map and .cfg'</header>\n"
 "\n"
-"The map editor saves exactly one file, either a .map (for terrain mode) or "
-"a .cfg (for scenario mode). In scenario mode the terrain map is saved inside "
-"the .cfg file; there is no separate .map file. If you start editing in "
-"terrain mode and then switch to scenario mode then an old .map file might "
-"remain, but this is not updated by the scenario editor.\n"
+"The map editor saves one file when in terrain mode (a .map) or two files "
+"when in scenario mode (both a .map and a .cfg).\n"
 "\n"
 "Loading a .cfg file has different results depending on the contents of the ."
 "cfg file. For .cfg files that were created by the scenario editor, it will "
-"open the .cfg in the scenario editor. However, for .cfg files that use a "
-"separate .map file (which can't be created by the scenario editor), the "
-"editor may follow the link and open the corresponding .map in terrain-only "
-"mode, as if the .map file was chosen in the file selector."
+"open the .cfg in the scenario editor. However, for .cfg files that cannot be "
+"opened by the scenario editor, the editor will attempt to find the "
+"scenario's map data and open the corresponding .map file in terrain-only "
+"mode, as if the .map file was chosen in the file selector. It is recommended "
+"in those cases to simply load the .map file directly instead."
 msgstr ""
 "<header>text='Soubory: .map a .cfg'</header>\n"
 "\n"
-"Editor map uloží právě jeden soubor, buď .map (v režimu terénu), nebo .cfg "
-"(v režimu scénáře). V režimu scénáře je mapa terénu uložena uvnitř souboru ."
-"cfg, žádný samostatný soubor .map není. Když začneš úpravy v režimu terénu "
-"a pak přepneš do režimu scénáře, pak může zůstat starý soubor .map, ale ten "
-"není editorem scénáře aktualizován.\n"
+"Editor map uloží v režimu terénu jeden soubor (.map), nebo v režimu scénáře "
+"soubory dva (.map a .cfg).\n"
 "\n"
 "Různé výsledky načtení souboru .cfg závisí na obsahu souboru .cfg. Pro "
 "soubory .cfg, které byly vytvořeny v editoru scénáře, se .cfg otevře "
-"v editoru scénáře. Avšak u souborů .cfg, které využívají samostatný soubor ."
-"map (jenž nemůže být vytvořen editorem scénáře), může editor následovat "
-"odkaz a otevřít odpovídající .map v režimu pouze pro terén, jako kdyby byl "
-"soubor .map vybrán při volbě souboru."
+"v editoru scénáře. Avšak u souborů .cfg, které nemohou být otevřeny editorem "
+"scénáře, se editor pokusí najít mapová data scénáře a otevřít odpovídající "
+"soubor .map v režimu terénu, jako by byl soubor .map vybrán při volbě "
+"souboru. V těchto případech se doporučuje místo toho jednoduše načíst "
+"soubor .map přímo."
 
 # zkráceno, aby se to vešlo do levého panelu v nápovědě (i s posuvnou lištou)
 #. [topic]: id=editor_separate_events_file
-#: data/core/editor/help.cfg:391
+#: data/core/editor/help.cfg:414
 msgid "Using a separate file for WML events"
 msgstr "Soubor WML událostí"
 
 #. [topic]: id=editor_separate_events_file
-#: data/core/editor/help.cfg:392
+#: data/core/editor/help.cfg:415
 msgid ""
 "When loading a .cfg file, the scenario editor understands files created by "
 "the scenario editor, but is likely to have difficulty with files that have "
 "been edited by hand.\n"
 "\n"
-"Files created by the scenario editor omit the opening [scenario] and closing "
-"[/scenario] tags. If you are creating a campaign (or other add-on), then "
-"those tags need to be added; there is more detail about this in the "
-"<ref>dst='editor_map_format' text='map file format'</ref> documentation.\n"
-"\n"
-"One workflow is to create a separate WML file, also with the .cfg extension, "
+"One option is to create a separate WML file, also with the .cfg extension, "
 "which uses the WML preprocessor to include the editor-created file. This "
 "separate file contains both the [scenario] tag and any hand-edited WML such "
 "as events. With this workflow, the add-on’s file structure could look like "
 "this:\n"
 "\n"
-"<header>text='For Wesnoth 1.14'</header>\n"
-"\n"
-"• _main.cfg:\n"
-"  ◦ use “{./scenarios}” to include the “scenarios” directory\n"
-"• maps/map_from_01.cfg\n"
-"  ◦ this is the file created by the scenario editor\n"
-"• scenarios/01_Forest.cfg, instead of the opening [scenario] tag put in "
-"these four lines:\n"
-"  ◦ [scenario]\n"
-"  ◦     {~add-ons/NAME_OF_ADD_ON/maps/map_from_01.cfg}\n"
-"  ◦ [/scenario]\n"
-"  ◦ [+scenario]\n"
-"\n"
-"The first three of those lines insert the scenario-generated file inside a "
-"[scenario] tag. The ‘+’ sign on the fourth line means that two scenario tags "
-"will be combined, with attributes in the second one overriding attributes in "
-"the first one.\n"
-"\n"
-"<header>text='1.16 and later'</header>\n"
-"\n"
-"If your add-on will only be used on 1.16 and later, there are new features "
-"to load .cfg files via map_file, and to avoid repeating the add-on’s name "
-"within the .cfg files.\n"
+"<header>text='Example'</header>\n"
+"If your add-on will only be used on 1.18 and later, it is instead "
+"recommended to use the new include_file attribute to load a .cfg file "
+"containing additional WML into the scenario.\n"
 "\n"
 "• _main.cfg:\n"
 "  ◦ use “[binary_path]” to add add-on’s directories to the binary path, "
-"which makes “map_file” search the “maps” directory.\n"
-"  ◦ use “{./scenarios}” to include the “scenarios” directory\n"
-"• maps/map_from_01.cfg\n"
-"  ◦ this is the file created by the scenario editor\n"
-"• scenarios/01_Forest.cfg\n"
-"  ◦ inside the [scenario] element, use “map_file=\"map_from_01.cfg\"” to "
-"load that file"
+"which makes “map_file” search the “maps” directory\n"
+"• maps/first.map\n"
+"  ◦ this is the .map file created by the scenario editor when saving in "
+"scenario mode\n"
+"• scenarios/other.cfg\n"
+"  ◦ this is the .cfg file containing everything that the scenario editor "
+"doesn't understand\n"
+"• scenarios/first.cfg\n"
+"  ◦ inside the [scenario] element, use “map_file=\"first.map\"” to load the "
+"map file\n"
+"  ◦ inside the [scenario] element, use “include_file=\"other.cfg\"” to load "
+"the additional cfg file"
 msgstr ""
 "Při načítání souboru .cfg editor scénáře rozumí souborům, které jím byly "
 "vytvořeny, ale je pravděpodobné, že bude mít obtíže se soubory, které byly "
 "upravovány ručně.\n"
 "\n"
-"Soubory vytvořené editorem scénáře nezahrnují úvodní [scenario] a uzavírací "
-"[/scenario] značky. Když vytváříš tažení (nebo jiné rozšíření), pak musí být "
-"tyto značky přidány. O tomto je více podrobností v dokumentaci "
-"<ref>dst='editor_map_format' text='formátu mapového souboru'</ref>.\n"
-"\n"
-"Jedním z pracovních postupů je vytvořit samostatný soubor WML, který bude "
-"mít také příponu .cfg a použije WML preprocesor, aby zahrnul soubor "
-"vytvořený editorem. Tento samostatný soubor obsahuje jak [scenario] značku, "
-"tak jakýkoli ručně upravovaný WML, jako třeba události. S tímto pracovním "
+"Jednou z možností je vytvořit samostatný soubor WML, který bude mít také "
+"příponu .cfg a použije WML preprocesor, aby zahrnul soubor vytvořený "
+"editorem. Tento samostatný soubor obsahuje jak značku [scenario], tak "
+"jakýkoli ručně upravovaný WML, jako třeba události. S tímto pracovním "
 "postupem by mohla struktura souborů rozšíření vypadat asi takto:\n"
 "\n"
-"<header>text='Pro Wesnoth 1.14'</header>\n"
-"\n"
-"• _main.cfg:\n"
-"  ◦ použij „{./scenarios}“ pro vložení adresáře „scenarios“\n"
-"• maps/map_from_01.cfg\n"
-"  ◦ toto je soubor vytvořený editorem scénáře\n"
-"• scenarios/01_Forest.cfg, místo úvodní značky [scenario] vlož tyto čtyři "
-"řádky:\n"
-"  ◦ [scenario]\n"
-"  ◦     {~add-ons/NAME_OF_ADD_ON/maps/map_from_01.cfg}\n"
-"  ◦ [/scenario]\n"
-"  ◦ [+scenario]\n"
-"\n"
-"První tři z těchto řádků vloží soubor s vytvořeným scénářem dovnitř značky "
-"[scenario]. Znaménko „+“ na čtvrtém řádku znamená, že se dvě scenario značky "
-"spojí a zároveň s tím atributy v druhé přepíší adributy z první.\n"
-"\n"
-"<header>text='1.16 a následující'</header>\n"
-"\n"
-"Jestliže bude tvé rozšíření použito pouze v 1.16 a následujících, jsou zde "
-"nové prvky pro načítání souborů .cfg přes map_file a vyhnutí se opakování "
-"názvu rozšíření uvnitř souborů .cfg.\n"
+"<header>text='Příklad'</header>\n"
+"Pokud bude tvé rozšíření použito pouze ve verzi 1.18 a novější, je "
+"doporučeno raději využít nový atribut include_file, který do scénáře načte "
+"soubor .cfg obsahující další WML.\n"
 "\n"
 "• _main.cfg:\n"
 "  ◦ použij „[binary_path]“, abys přidal adresáře rozšíření k binární cestě, "
-"což způsobí, že „map_file“ prohledá adresář „maps“.\n"
-"  ◦ použij „{./scenarios}“, abys zahrnul adresář „scenarios“\n"
-"• maps/map_from_01.cfg\n"
-"  ◦ toto je soubor vytvořený editorem scénáře\n"
-"• scenarios/01_Forest.cfg\n"
-"  ◦ uvnitř prvku [scenario] použij „map_file=\"map_from_01.cfg\"“, abys "
-"tento soubor načetl"
+"což způsobí, že „map_file“ prohledá adresář „maps“\n"
+"• maps/first.map\n"
+"  ◦ toto je soubor .map vytvořený editorem scénářů při ukládání v režimu "
+"scénáře\n"
+"• scenarios/other.cfg\n"
+"  ◦ toto je soubor .cfg obsahující vše, čemu editor scénářů nerozumí\n"
+"• scenarios/first.cfg\n"
+"  ◦ uvnitř prvku [scenario] použij „map_file=\"first.map\"“ pro načtení "
+"mapového souboru\n"
+"  ◦ uvnitř prvku [scenario] použij „include_file=\"other.cfg\"“ pro načtení "
+"dalšího souboru cfg"
 
 #. [topic]: id=editor_masks
-#: data/core/editor/help.cfg:430
+#: data/core/editor/help.cfg:438
 msgid "Editor Mask Usage"
 msgstr "Použití masky"
 
 #. [topic]: id=editor_masks
-#: data/core/editor/help.cfg:431
+#: data/core/editor/help.cfg:439
 msgid ""
 "Masks can be applied to a base map for reusal in several scenarios playing "
 "at the same locations."
@@ -1541,12 +1577,12 @@ msgstr ""
 
 #. [topic]: id=editor_time_schedule
 #. Time of Day and Schedule Editor, please use a short string as it will be used in the left-hand pane of the help browser
-#: data/core/editor/help.cfg:439
+#: data/core/editor/help.cfg:447
 msgid "ToD and Schedule Editor"
 msgstr "Editor rozvrhu dne"
 
 #. [topic]: id=editor_time_schedule
-#: data/core/editor/help.cfg:440
+#: data/core/editor/help.cfg:448
 msgid ""
 "This button at the top-right of the screen accesses the time-of-day preview "
 "and the schedule editor.\n"
@@ -1566,13 +1602,13 @@ msgstr ""
 "<ref>dst='editor_named_area' text='časových oblastí'</ref>."
 
 #. [topic]: id=editor_palette
-#: data/core/editor/help.cfg:451
+#: data/core/editor/help.cfg:459
 msgid "Editor Palette"
 msgstr "Paleta"
 
 #. [topic]: id=editor_palette
 #. the “Player 1”, “Player 2”, ... list is translated using "Player $side_num" in the wesnoth-editor textdomain
-#: data/core/editor/help.cfg:453
+#: data/core/editor/help.cfg:461
 msgid ""
 "The editor palette contains the applicable items you may use with the "
 "currently selected tool. For example, the Paint tool will display a full "
@@ -1598,33 +1634,33 @@ msgstr ""
 "se mění podle toho, co je vybráno. Příklady:"
 
 #. [topic]: id=editor_palette
-#: data/core/editor/help.cfg:458
+#: data/core/editor/help.cfg:466
 msgid "Show all kinds of terrain"
 msgstr "Ukázat všechny typy terénu"
 
 #. [topic]: id=editor_palette
-#: data/core/editor/help.cfg:459
+#: data/core/editor/help.cfg:467
 msgid "Show only water terrains"
 msgstr "Ukázat jen terény s vodou"
 
 #. [topic]: id=editor_palette
-#: data/core/editor/help.cfg:460
+#: data/core/editor/help.cfg:468
 msgid "Show only villages"
 msgstr "Ukázat pouze vesnice"
 
 #. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:472
+#: data/core/editor/help.cfg:480
 msgid "Wesnoth Map Format"
 msgstr "Formát mapy"
 
 #. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:473
+#: data/core/editor/help.cfg:481
 msgid "Wesnoth stores its maps in human readable plain text files."
 msgstr ""
 "Wesnoth své mapy ukládá do jednoduchých textových souborů čitelných člověkem."
 
 #. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:475
+#: data/core/editor/help.cfg:483
 msgid ""
 "<header>text='Native'</header>\n"
 "\n"
@@ -1681,7 +1717,7 @@ msgstr ""
 "začleňování preprocesorem."
 
 #. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:488
+#: data/core/editor/help.cfg:496
 msgid ""
 "<header>text='Embedded'</header>\n"
 "\n"
@@ -1715,64 +1751,27 @@ msgstr ""
 "(E)."
 
 #. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:496
+#: data/core/editor/help.cfg:504
 msgid ""
 "<header>text='Files created by the Scenario Editor'</header>\n"
 "\n"
-"In scenario mode, the editor saves the data as a .cfg file with embedded map "
-"data. When loading a .cfg file, the scenario editor understands files "
-"created by the scenario editor itself, but is likely to have difficulty with "
-"files that have been edited by hand; problems can be avoided by "
-"<ref>dst='editor_separate_events_file' text='using a separate .cfg file'</"
+"In scenario mode, the editor saves the scenario data as a .cfg file and the "
+"map data as a separate .map file. The scenario then references the .map file "
+"via map_file. When loading a .cfg file, the scenario editor understands "
+"files created by the scenario editor itself, but is likely to have "
+"difficulty with files that have been edited by hand; problems can be avoided "
+"by <ref>dst='editor_separate_events_file' text='using a separate .cfg file'</"
 "ref> for the hand-edited parts."
 msgstr ""
 "<header>text='Soubory vytvořené editorem scénáře'</header>\n"
 "\n"
-"V režimu scénáře editor ukládá data jako soubor .cfg s vnořenými mapovými "
-"údaji. Když editor scénáře soubor .cfg načítá, rozumí souborům, které jím "
+"V režimu scénáře editor ukládá data scénáře jako soubor .cfg a mapová data "
+"jako samostatný soubor .map. Scénář pak odkazuje na soubor .map pomocí klíče "
+"map_file. Když editor scénáře soubor .cfg načítá, rozumí souborům, které jím "
 "byly vytvořeny, ale pravděpodobně bude mít obtíže se soubory, jež byly "
 "upravovány ručně. Potížím se lze vyhnout "
 "<ref>dst='editor_separate_events_file' text='použitím samostatného souboru ."
 "cfg'</ref> pro ručně upravované části."
-
-#. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:500
-msgid ""
-"<header>text='Which scenario files use the [scenario] tag'</header>\n"
-"\n"
-"Files created by the scenario editor have the contents of a WML scenario "
-"element, but don’t include the opening [scenario] and closing [/scenario] "
-"tags. For each .cfg file in the userdata folder’s editor/scenarios "
-"subfolder, the game will automatically try to load a scenario from it to "
-"include in the “Custom Scenarios” list (files that fail to load are "
-"ignored). In this folder each file is a separate item - files that fail to "
-"parse as a scenario are ignored, and files must not contain the [scenario][/"
-"scenario] tags.\n"
-"\n"
-"The opposite applies when a scenario is part of a campaign or other add-on. "
-"Typically each scenario has its own .cfg file, however this is unnecessary - "
-"all of the WML in an add-on will be combined by the preprocessor, it doesn’t "
-"matter whether the add-on is written as separate files or not. The engine "
-"needs the [scenario]...[/scenario] (or [multiplayer]...[/multiplayer]) tags "
-"to know which WML is part of each scenario."
-msgstr ""
-"<header>text='Které soubory scénáře používají značku [scenario]'</header>\n"
-"\n"
-"Soubory vytvořené editorem scénáře mají obsah WML prvku scénář, ale "
-"nezahrnují úvodní [scenario] a uzavírací [/scenario] značky. Hra bude "
-"automaticky zkoušet načíst scénář z každého souboru .cfg v podsložce editor/"
-"scenarios složky s uživatelskými daty, aby jej zahrnula do seznamu „Vlastní "
-"scénáře“ (soubory, které se nepodaří načíst, jsou ignorovány). V této složce "
-"je každý soubor samostatnou položkou – soubory, které se nepodaří rozpoznat "
-"jako scénář, jsou ignorovány a soubory nesmí obsahovat značky [scenario][/"
-"scenario].\n"
-"\n"
-"Opak je pravdou, když je scénář součástí tažení nebo jiného rozšíření. "
-"Obvykle má každý scénář svůj vlastní soubor .cfg, ačkoli to není důležité – "
-"vše z WML v rozšíření bude spojeno preprocesorem, nezáleží na tom, zda je "
-"rozšíření napsáno v samostatných souborech, nebo ne. Engine potřebuje značky "
-"[scenario]...[/scenario] (nebo [multiplayer]...[/multiplayer]), aby věděl, "
-"který WML je částí každého scénáře."
 
 #. [editor_times]: id=deep_underground
 #. [time]: id=deep_underground
@@ -2499,10 +2498,10 @@ msgid ""
 "its statistics, attacks, resistances, and movement and defense values.\n"
 "\n"
 msgstr ""
-"Tato část bude obsahovat všechny jednotky, se kterými se setkáte při "
-"prozkoumávání Wesnothu. Když potkáte nějakou novou jednotku během tažení "
-"nebo scénáře pro hru více hráčů, nahraje se její popis do podkategorie dané "
-"rasy; tuto stránku si můžete zobrazit kdykoliv potřebujete. Stránka jednotky "
+"Tato část bude obsahovat všechny jednotky, se kterými se setkáš při "
+"prozkoumávání Wesnothu. Když potkáš nějakou novou jednotku během tažení nebo "
+"scénáře pro hru více hráčů, nahraje se její popis do podkategorie dané rasy; "
+"tuto stránku si můžeš zobrazit kdykoliv potřebuješ. Stránka jednotky "
 "poskytne základní popis, její statistiky, útoky, odolnosti a hodnoty pro "
 "pohyb a obranu.\n"
 "\n"
@@ -2541,10 +2540,11 @@ msgid ""
 "have it.\n"
 "\n"
 msgstr ""
-"Některé jednotky mají schopnosti přímo ovlivnit jiné, nebo mají vliv na "
-"jejich vzájemném působení. Jakmile je získáte, tyto schopnosti budou uvedeny "
-"v této sekci. Každá strana obsahuje popis co která schopnost dělá a které ze "
-"známých jednotek ji používají.\n"
+"Některé jednotky mají schopnosti, které buď přímo ovlivňují ostatní "
+"jednotky, nebo mají dopad na to, jak na sebe jednotky vzájemně působí. Tyto "
+"schopnosti budou v tomto oddíle uvedeny, jakmile se s nimi setkáš. Na každé "
+"stránce bude popsáno, co daná schopnost dělá a které (nyní objevené) "
+"jednotky ji mají.\n"
 "\n"
 
 #. [topic]: id=..weapon_specials
@@ -2557,11 +2557,12 @@ msgid ""
 "weapon special does and which (currently discovered) units have it.\n"
 "\n"
 msgstr ""
-"Některé zbraně mají speciální vlastnosti, které zvyšují jejich efektivitu. "
-"Když uvidíte novou zbraň během tažení nebo scénáře ve hře více hráčů, bude "
-"přidána do tohoto seznamu; kdykoliv si ji pak můžete zobrazit. Každá stránka "
-"bude obsahovat popis, co ta která zbraň dělá a které jednotky ji v současné "
-"době používají.\n"
+"Některé zbraně mají speciální vlastnosti, které zvyšují jejich účinnost při "
+"útoku. Když se během tažení nebo scénáře hry více hráčů objeví nějaký nový "
+"speciální útok, bude přidán do tohoto seznamu. Jeho stránku si pak můžeš "
+"prohlédnout, kdykoli si to budeš přát. Každá stránka bude obsahovat popis "
+"toho, co daný speciální útok dělá, a které (nyní objevené) jednotky ho "
+"mají.\n"
 "\n"
 
 #. [topic]: id=.unknown_unit
@@ -3582,7 +3583,7 @@ msgstr ""
 "nepřátelskou, kterou chceš napadnout: tvá jednotka se přesune směrem "
 "k nepřátelské a pak začne vzájemný souboj. Útočník a obránce se budou "
 "střídavě napadat, dokud každý z nich nevyčerpá přidělený počet útoků. "
-"Útočník pro boj zvolí jednu ze svých zbraní, a obránce odpoví zbraní "
+"Útočník pro boj zvolí jednu ze svých zbraní a obránce odpoví zbraní "
 "obdobného typu. Jsou dva druhy útoku: <italic>text='na blízko'</italic>, "
 "který obvykle vyžaduje zbraně jako jsou meče, sekery nebo tesáky, a boj "
 "<italic>text='na dálku'</italic>, kde se uplatní zbraně jako jsou luky, "
@@ -3991,9 +3992,9 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Aktuální denní dobu můžete sledovat pod malou mapou ve stavovém panelu. "
-"Používá se běžný cyklus den/noc; dopoledne a odpoledne náleží ke dni, noc je "
-"rozdělena na první a druhou hlídku:\n"
+"Aktuální denní dobu můžeš sledovat pod malou mapou ve stavovém panelu. "
+"Používá se běžný cyklus den/noc; dopoledne a odpoledne náleží ke dni, noc je "
+"rozdělena na první a druhou hlídku:\n"
 "\n"
 
 #. [topic]: id=time_of_day
@@ -4237,11 +4238,11 @@ msgid ""
 "ref>, but you now know everything you need to know to play the "
 "<italic>text='Heir to the Throne'</italic> campaign. Have fun, and good luck!"
 msgstr ""
-"Tím jsme uzavřeli základy Wesnothu. Možná se budete chtít podívat na základy "
-"strategie nebo se seznámit s <ref>dst='..traits_section' text='vlastnostmi'</"
-"ref> a <ref>dst='..abilities_section' text='schopnostmi'</ref>, ale nyní "
-"víte vše, co potřebujete k hraní tažení <italic>text='Dědic trůnu'</italic>. "
-"Dobře se bavte a mnoho štěstí!"
+"Tím jsme uzavřeli základy Wesnothu. Možná se budeš chtít podívat na základy "
+"strategie nebo se seznámit s <ref>dst='..traits_section' text='vlastnostmi'</"
+"ref> a <ref>dst='..abilities_section' text='schopnostmi'</ref>, ale nyní víš "
+"vše, co potřebuješ k hraní tažení <italic>text='Dědic trůnu'</italic>. Dobře "
+"se bav a mnoho štěstí!"
 
 #. [topic]: id=license
 #: data/core/help.cfg:522
@@ -4651,7 +4652,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"<italic>text='Hry pro více hráčů'</italic> můžete hrát v plně funkčních "
+"<italic>text='Hry pro více hráčů'</italic> můžeš hrát v plně funkčních "
 "scénářích nebo dokonce speciálně navržených taženích. Existují také balíčky "
 "poskytující jednotlivé scénáře pro více hráčů."
 
@@ -4686,7 +4687,7 @@ msgstr ""
 "Frakce jsou vyrovnaná seskupení se společným zaměřením; například, hlavní "
 "frakce Wesnothu jsou k nalezení ve výchozí éře.\n"
 "\n"
-"Ve <italic>text='Hře pro více hráčů'</italic> si můžete vybrat éru při "
+"Ve <italic>text='Hře pro více hráčů'</italic> si můžeš vybrat éru při "
 "vytváření nové hry a hráči si mohou vybrat z dostupných frakcí z dané éry "
 "při výběru strany a týmu."
 
@@ -4700,8 +4701,8 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Můžete se podívat, jaké éry jste měli spuštěné v nápovědě v části "
-"<ref>text='éry' dst='..eras_section'</ref>."
+"V nápovědě se můžeš podívat, jaké <ref>text='éry' dst='..eras_section'</ref> "
+"jsi načetl."
 
 #. [topic]: id=using_addons
 #: data/core/help.cfg:627
@@ -4726,7 +4727,7 @@ msgstr ""
 "\n"
 "\n"
 "Modifikace jsou volitené, na scénářích a érách nezávislé skripty, které "
-"mohou posunout výchozí pravidla různými směry. Modifikace si můžete vybrat "
+"mohou posunout výchozí pravidla různými směry. Modifikace si můžeš vybrat "
 "a nastavit při vytváření nové hry."
 
 #. [topic]: id=using_addons
@@ -4760,8 +4761,8 @@ msgstr ""
 "terény a podobně.\n"
 "\n"
 "Jádra umožňují značně odlišný herní zážitek: například druhou světovou válku "
-"jako tažení nebo dokonce zcela jinou hru, pokud může být nějak představována "
-"šestiúhelníkovou mapou s „jednotkami“."
+"jako tažení, nebo dokonce zcela jinou hru, pokud může být nějak "
+"představována šestiúhelníkovou mapou s „jednotkami“."
 
 #. [topic]: id=using_addons
 #: data/core/help.cfg:637
@@ -4823,28 +4824,27 @@ msgid ""
 "provides you with additional details about the add-on, such as its full "
 "description, installation status, and available translations."
 msgstr ""
-"Rozšíření vytvořená hráči můžete získat a aktualizovat pomocí položky "
+"Rozšíření vytvořená hráči můžeš získat a aktualizovat pomocí položky "
 "<italic>text='Rozšíření'</italic> v hlavním menu. Po připojení na server "
-"s rozšířeními (výchozí je <italic>text='add-ons.wesnoth.org'</italic>) se "
-"vám zobrazí seznam dostupných rozšíření, která jsou dostupná ke stažení.\n"
+"s rozšířeními (výchozí je <italic>text='add-ons.wesnoth.org'</italic>) se ti "
+"zobrazí seznam dostupných rozšíření, která jsou dostupná ke stažení.\n"
 "\n"
 "Stav instalace rozšíření je zobrazen pod každou položkou. Rozšíření, pro "
-"která jsou <italic>text='Dostupné aktualizace'</italic> nebo jsou na serveru "
-"<italic>text='Zastaralé'</italic> verze, mají ve sloupci "
-"<italic>text='Verze'</italic> zobrazeny jejich nainstalované a dostupné "
-"verze.\n"
+"která <italic>text='je možná aktualizace'</italic> nebo jsou na serveru "
+"<italic>text='zastaralá'</italic>, mají ve sloupci <italic>text='Verze'</"
+"italic> zobrazeny jejich instalované a dostupné verze.\n"
 "\n"
-"Pokud chcete hledat rozšíření podle klíčových slov, napište do vyhledávacího "
+"Pokud chceš hledat rozšíření podle klíčových slov, napiš do vyhledávacího "
 "pole v jakémkoli pořadí všechny příslušné výrazy oddělené mezerami. Nalezená "
-"rozšíření můžete řadit kliknutím na hlavičky sloupců. Je také možné zobrazit "
+"rozšíření můžeš řadit kliknutím na hlavičky sloupců. Je také možné zobrazit "
 "pouze rozšíření z určité kategorie kliknutím na rozbalovací menu "
 "<bold>text='Typ'</bold>.\n"
 "\n"
-"Rozšíření nainstalujete buď vybráním ze seznamu a kliknutím na ikonu "
+"Rozšíření nainstaluješ buď vybráním ze seznamu a kliknutím na ikonu "
 "<bold>text='+'</bold>, nebo jednoduše dvojklikem na názvu rozšíření. Pokud "
 "je okno příliš malé na ukázání dalších podrobností o rozšíření, jako "
-"například celý popis, stav instalace a dostupné překlady, tak vám je "
-"poskytne tlačítko <bold>text='Podrobnosti o rozšíření'</bold>."
+"například celý popis, stav instalace a dostupné překlady, tak ti je poskytne "
+"tlačítko <bold>text='Podrobnosti o rozšíření'</bold>."
 
 #. [topic]: id=removing_addons
 #: data/core/help.cfg:662
@@ -4864,14 +4864,14 @@ msgid ""
 "information files or the add-ons themselves using a file manager provided by "
 "your platform."
 msgstr ""
-"Pro odstranění rozšíření, vyberze volbu <bold>text='Odstranit rozšíření'</"
-"bold> v dialogu připojení k serveru s rozšířeními. Máte možnost odstranit "
-"libovolná rozšíření, která máte právě nainstalovaná.\n"
+"Pro odstranění rozšíření vyber volbu <bold>text='Odstranit rozšíření'</bold> "
+"v dialogu připojení k serveru s rozšířeními. Máš možnost odstranit libovolná "
+"rozšíření, která máš právě nainstalovaná.\n"
 "\n"
-"Není možné odstranit rozšíření, která obsahují soubory s informacemi o "
-"publikaci (soubory <italic>text='.pbl'</italic>), aby  se předešlo náhodné "
-"ztrátě. Pokud je to nezbytné, musíte ručně vymazat tyto soubory nebo samotná "
-"rozšíření za pomoci správce souborů dostupného pro vaši platformu."
+"Není možné odstranit rozšíření, která obsahují soubory s informacemi "
+"o publikaci (soubory <italic>text='.pbl'</italic>), aby  se předešlo náhodné "
+"ztrátě. Pokud je to nezbytné, musíš tyto soubory nebo samotná rozšíření "
+"vymazat ručně za pomoci správce souborů dostupného pro tvou platformu."
 
 #. [topic]: id=general_commands
 #: data/core/help.cfg:678
@@ -5077,7 +5077,7 @@ msgstr ""
 "Změní vlastníka strany (číslo strany jako side) na uživatele nebo "
 "pozorovatele (jméno hráče nebo pozorovatele jako username). Která strana "
 "patří kterému hráči lze snadno zjistit v dialogu <bold>text='Nastavení "
-"scénáře'</bold> – dostanete se tam tlačítkem <bold>text='Více'</bold> "
+"scénáře'</bold> – dostaneš se tam tlačítkem <bold>text='Více'</bold> "
 "ve <bold>text='Stavové tabulce'</bold> (při výchozím nastavení alt+s). "
 "Hostitel může změnit vlastníka jakékoliv strany.\n"
 "\n"
@@ -5091,7 +5091,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Otevře dialog, který vám pomůže se změnou živých vlastníků zúčastněných "
+"Otevře dialog, který ti pomůže se změnou živých vlastníků zúčastněných "
 "stran.\n"
 "\n"
 
@@ -5119,7 +5119,7 @@ msgid ""
 msgstr ""
 "\n"
 "Vyhodí uživatele ze hry více hráčů, přičemž se může kdykoli znovu připojit. "
-"Pokud si přejete pouze změnit, kdo ovládá některé strany ve hře, použijte "
+"Pokud si přeješ pouze změnit, kdo ovládá některé strany ve hře, použij "
 "příkaz :control.\n"
 "\n"
 
@@ -5135,7 +5135,7 @@ msgid ""
 msgstr ""
 "\n"
 "Pošle soukromou zprávu. Nelze poslat hráči, který hraje za některou stranu "
-"ve stejné hře jako vy (právě běžící).\n"
+"ve stejné hře jako ty (právě běžící).\n"
 "\n"
 
 #. [topic]: id=mp_commands
@@ -6355,8 +6355,8 @@ msgstr ""
 "tažení, neboť mohou rychle zvyšovat svoji úroveň. V pozdějších scénářích "
 "tažení již však nejsou chytré jednotky tak užitečné, neboť "
 "<italic>text='dosáhnutí maxima svých schopností (AMLA)'</italic> není až tak "
-"významná výhoda ve srovnání se zvýšením úrovně. Pokud máte hodně jednotek na "
-"hranici jejich možností, možná budete chtít povolat jednotky s vhodnějšími "
+"významná výhoda ve srovnání se zvýšením úrovně. Pokud máš hodně jednotek na "
+"hranici jejich možností, možná budeš chtít povolat jednotky s vhodnějšími "
 "vlastnostmi."
 
 #. [trait]: id=intelligent
@@ -8373,20 +8373,18 @@ msgstr "+1 max. HP"
 #: data/lua/stun.lua:14
 msgid "stunned: This unit is stunned. It cannot enforce its Zone of Control."
 msgstr ""
+"omráčení: Tato jednotka je omráčená. Nemůže nadále udržet svou oblast "
+"kontroly."
 
 #. [lua]: on_hit
 #: data/lua/stun.lua:24
-#, fuzzy
-#| msgid "female^undead"
 msgid "female^stunned"
-msgstr "nemrtvá"
+msgstr "omráčená"
 
 #. [lua]: on_hit
 #: data/lua/stun.lua:26
-#, fuzzy
-#| msgid "stun"
 msgid "stunned"
-msgstr "omráčení"
+msgstr "omráčený"
 
 #: src/help/help.cpp:211
 msgid "Close"

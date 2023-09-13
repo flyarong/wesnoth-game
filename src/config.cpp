@@ -1,5 +1,5 @@
 /*
-	Copyright (C) 2003 - 2022
+	Copyright (C) 2003 - 2023
 	by Guillaume Melquiond <guillaume.melquiond@gmail.com>
 	Copyright (C) 2003 by David White <dave@whitevine.net>
 	Part of the Battle for Wesnoth Project https://www.wesnoth.org/
@@ -692,6 +692,12 @@ const config::attribute_value* config::get(config_key_type key) const
 {
 	attribute_map::const_iterator i = values_.find(key);
 	return i != values_.end() ? &i->second : nullptr;
+}
+
+const config::attribute_value& config::get_or(const config_key_type key, const config_key_type default_key) const
+{
+    const config::attribute_value & value = operator[](key);
+    return !value.blank() ? value : operator[](default_key);
 }
 
 config::attribute_value& config::operator[](config_key_type key)

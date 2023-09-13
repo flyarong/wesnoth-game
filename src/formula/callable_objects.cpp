@@ -1,5 +1,5 @@
 /*
-	Copyright (C) 2014 - 2022
+	Copyright (C) 2014 - 2023
 	by David White <dave@whitevine.net>
 	Part of the Battle for Wesnoth Project https://www.wesnoth.org/
 
@@ -306,7 +306,7 @@ variant unit_callable::get_value(const std::string& key) const
 		} else if(key == "vision_cost") {
 			mt.get_vision().write(cfg);
 		} else if(key == "jamming_cost") {
-			mt.get_vision().write(cfg);
+			mt.get_jamming().write(cfg);
 		} else if(key == "defense") {
 			mt.get_defense().write(cfg);
 			needs_flip = true;

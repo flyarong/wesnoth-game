@@ -1,5 +1,5 @@
 /*
-	Copyright (C) 2003 - 2022
+	Copyright (C) 2003 - 2023
 	by David White <dave@whitevine.net>
 	Part of the Battle for Wesnoth Project https://www.wesnoth.org/
 
@@ -245,7 +245,7 @@ private:
 
 	map_location displayedUnitHex_;
 
-	bool in_game_;
+	bool first_turn_, in_game_;
 
 	const std::unique_ptr<display_chat_manager> chat_man_;
 
